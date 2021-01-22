@@ -58,15 +58,15 @@ export default class Header extends React.Component {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
+            if (prevScrollpos < currentScrollPos) {
+                document.getElementById("navbar").style.background = "white";
+                document.getElementById("item").style.color = '#24B67E'
+                document.querySelector('.header-logo').style.color = '#24B67E'
+            } else {
                 document.getElementById("navbar").style.top = "0";
                 document.getElementById("navbar").style.backgroundColor = "transparent";
                 document.getElementById("item").style.color = 'white'
                 document.querySelector('.header-logo').style.color = 'white'
-            } else {
-                document.getElementById("navbar").style.background = "white";
-                document.getElementById("item").style.color = '#24B67E'
-                document.querySelector('.header-logo').style.color = '#24B67E'
             }
             prevScrollpos = currentScrollPos;
         }
@@ -82,7 +82,7 @@ export default class Header extends React.Component {
                     
                   }}
                     className="pointer decoration-none">
-                  <h1 className='header-logo img-fluid'> Mason Keiser</h1>
+                  <h1 className='header-logo  img-fluid'> Mason Keiser</h1>
                   </NavbarBrand>
                   <NavbarToggler onClick={this.handleToggle} navbar="true" className='border-0 white' id='navToggle'/>
                 <Collapse isOpen={this.state.isOpen} id='w' navbar>

@@ -12,6 +12,7 @@ class App extends React.Component {
         <div>
             <Header/>
             <Home/>
+            <div style={{height: '100vh', width: '100vw'}}>new comp</div>
         </div>
       );
     }
