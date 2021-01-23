@@ -96,10 +96,7 @@ export default class Header extends React.Component {
                 <Navbar color="faded" light
                   expand="md"
                   className=" py-0 mx-auto nav navbar-dark" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                    <NavbarBrand onClick={() => {
-                    this.props.setView('main', {})
-                    
-                  }}
+                    <NavbarBrand
                     className="pointer decoration-none  justify-content-center">
                   <h1 className='header-logo img-fluid'> Mason Keiser</h1>
                   </NavbarBrand>
@@ -122,7 +119,7 @@ export default class Header extends React.Component {
                   <NavItem className="ml-md-5">
                       <Link activeClass="active"
                         id='item'
-                        to=""
+                        to="about"
                         spy={true}
                         smooth={true}
                         offset={offset}
