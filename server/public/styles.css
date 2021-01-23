@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 body {
     margin: 0 0 0 0;
     font-family: 'Ubuntu', sans-serif;
@@ -129,6 +131,25 @@ body {
 
 .nameContainer > h1 {
     font-size: 70px;
+}
+
+.nameContainer > h4 {
+    font-family: 'Source Code Pro', 'Ubuntu';
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: solid 3px rgba(0,255,0,.75);
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+}
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 250px;}
+}
+  
+@keyframes animated-cursor{
+    from{border-right-color: white;}
+    to{border-right-color: transparent;}
 }
 
 @media screen and (orientation: landscape) and (max-height: 400px) {
