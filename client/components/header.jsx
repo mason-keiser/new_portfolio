@@ -60,12 +60,20 @@ export default class Header extends React.Component {
             var currentScrollPos = window.pageYOffset;
             if (prevScrollpos < currentScrollPos) {
                 document.getElementById("navbar").style.background = "white";
-                document.getElementById("item").style.color = '#24B67E'
+                document.getElementById("item").style.color = '#24B67E';
+                let navItems = document.querySelectorAll('.nav-item');
+                for (let i = 0; i < navItems.length; i++) {
+                    navItems[i].firstChild.style.color = '#24B67E'
+                }
                 document.querySelector('.header-logo').style.color = '#24B67E'
             } else {
                 document.getElementById("navbar").style.top = "0";
                 document.getElementById("navbar").style.backgroundColor = "transparent";
                 document.getElementById("item").style.color = 'white'
+                let navItems = document.querySelectorAll('.nav-item');
+                for (let i = 0; i < navItems.length; i++) {
+                    navItems[i].firstChild.style.color = 'white'
+                }
                 document.querySelector('.header-logo').style.color = 'white'
             }
             prevScrollpos = currentScrollPos;
@@ -110,7 +118,7 @@ export default class Header extends React.Component {
                         duration={1000}
                         className="pointer px-0 nav-link"
                         onClick={this.handleToggleå}>
-                        About Me
+                        About
                       </Link>
                     </NavItem>
                     <NavItem className="ml-md-5">
@@ -152,7 +160,7 @@ export default class Header extends React.Component {
                         Tools
                       </Link>
                     </NavItem>
-                    <NavItem className="ml-md-5">
+                    <NavItem className="ml-md-5 mr-md-3">
                       <Link activeClass="active"
                         id='item'
                         to=""
