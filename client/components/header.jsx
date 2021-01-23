@@ -58,43 +58,54 @@ export default class Header extends React.Component {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos < currentScrollPos) {
+            if (currentScrollPos >= 200) {
                 document.getElementById("navbar").style.background = "white";
-                document.getElementById("item").style.color = '#24B67E';
                 let navItems = document.querySelectorAll('.nav-item');
                 for (let i = 0; i < navItems.length; i++) {
                     navItems[i].firstChild.style.color = '#24B67E'
+                    navItems[i].firstChild.classList.add('green')
+                    navItems[i].firstChild.id = ''
                 }
+                let nav = document.querySelector('nav');
+                    nav.classList.remove('navbar-dark');
+                    nav.classList.add('navbar-light')
                 document.querySelector('.header-logo').style.color = '#24B67E'
-            } else {
+                document.getElementById("btn").style.display = 'flex';
+            } else if (prevScrollpos < 500 || prevScrollpos <= 0) {
                 document.getElementById("navbar").style.top = "0";
                 document.getElementById("navbar").style.backgroundColor = "transparent";
-                document.getElementById("item").style.color = 'white'
                 let navItems = document.querySelectorAll('.nav-item');
                 for (let i = 0; i < navItems.length; i++) {
                     navItems[i].firstChild.style.color = 'white'
+                    navItems[i].firstChild.classList.remove('green')
+                    navItems[i].firstChild.id = 'item'
                 }
                 document.querySelector('.header-logo').style.color = 'white'
+                let nav = document.querySelector('nav');
+                    nav.classList.remove('navbar-light');
+                    nav.classList.add('navbar-dark')
+                
+            } if (prevScrollpos < 200) {
+                document.getElementById("btn").style.display = 'none';
             }
             prevScrollpos = currentScrollPos;
-        }
-           
+        }  
         
             return (
                 <Container fluid={true} className="py-3 shadow-md sticky-top" id="navbar">
                 <Navbar color="faded" light
                   expand="md"
-                  className=" py-0 nav navbar-dark">
+                  className=" py-0 mx-auto nav navbar-dark" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
                     <NavbarBrand onClick={() => {
                     this.props.setView('main', {})
                     
                   }}
-                    className="pointer decoration-none">
-                  <h1 className='header-logo  img-fluid'> Mason Keiser</h1>
+                    className="pointer decoration-none  justify-content-center">
+                  <h1 className='header-logo img-fluid'> Mason Keiser</h1>
                   </NavbarBrand>
                   <NavbarToggler onClick={this.handleToggle} navbar="true" className='border-0 white' id='navToggle'/>
                 <Collapse isOpen={this.state.isOpen} id='w' navbar>
-                  <Nav className="ml-auto " navbar>
+                  <Nav className="mx-auto justify-content-center " navbar>
                   <NavItem className="ml-md-5">
                       <Link activeClass="active"
                         id='item'
@@ -176,6 +187,7 @@ export default class Header extends React.Component {
                   </Nav>
                 </Collapse>
               </Navbar>
+              <div id='btn' className='toTopBtn' onClick={() => scroll.scrollToTop()}>▲</div>
             </Container>
         )
     }

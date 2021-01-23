@@ -12,7 +12,7 @@ class App extends React.Component {
         <div>
             <Header/>
             <Home/>
-            <div style={{height: '100vh', width: '100vw', position: 'relative'}}>new comp</div>
+            <div style={{ background: '#F5F5F5', height: '100vh', width: '100vw'}}>About Me</div>
         </div>
       );
     }

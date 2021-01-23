@@ -9,6 +9,10 @@ export default class Home extends React.Component {
         return (
             <div className='home-bg'>
                 <img className='img' src='/images/landing.jpg'/>
+                <div className='nameContainer'>
+                    <h1>Mason Keiser</h1>
+                    <h4>Software Engineer</h4>
+                </div>
             </div>
         )
     }
