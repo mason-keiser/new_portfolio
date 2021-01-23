@@ -36,8 +36,8 @@ body {
     height: 50px;
     width: 50px;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 20px;
     color: #24B67E;
     border: 3px solid #24B67E;
     border-radius: 50%;
@@ -133,25 +133,45 @@ body {
     font-size: 70px;
 }
 
-.nameContainer > h4 {
+.animateTe{
     font-family: 'Source Code Pro', 'Ubuntu';
+    width: 200px;
     white-space: nowrap;
     overflow: hidden;
-    border-right: solid 3px rgba(0,255,0,.75);
-    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+    border-right: solid 3px #24B67E;
+    animation: animated-text 3s steps(29,end) 1s 1 normal both,
                animated-cursor 600ms steps(29,end) infinite;
 }
 
-@keyframes animated-text{
-    from{width: 0;}
-    to{width: 250px;}
-}
-  
-@keyframes animated-cursor{
-    from{border-right-color: white;}
-    to{border-right-color: transparent;}
+.animateTex{
+    font-family: 'Source Code Pro', 'Ubuntu';
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: solid 3px #24B67E;
+    animation: animated-text 3s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
 }
 
+.animateT {
+    font-family: 'Source Code Pro', 'Ubuntu';
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: solid 3px #24B67E;
+    animation: animated-text 3s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+}
+
+@keyframes animated-text{ 
+    from{width: 0;}
+}
+
+@keyframes animated-cursor{
+    from{border-right-color: #24B67E;}
+    to{border-right-color: transparent;}
+  }
+  
 @media screen and (orientation: landscape) and (max-height: 400px) {
     #item {
         font-size: 20px;

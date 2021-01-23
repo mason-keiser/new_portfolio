@@ -172,17 +172,15 @@ export default class Header extends React.Component {
                       </Link>
                     </NavItem>
                     <NavItem className="ml-md-5 mr-md-3">
-                      <Link activeClass="active"
+                      <a 
                         id='item'
-                        to=""
-                        spy={true}
-                        smooth={true}
+                        href="/assets/Mason_Keiser_Resume.pdf"
                         offset={offset}
                         duration={1000}
                         className="pointer px-0 nav-link"
                         onClick={this.handleToggle}>
                         Resume
-                      </Link>
+                      </a>
                     </NavItem> 
                   </Nav>
                 </Collapse>
