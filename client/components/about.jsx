@@ -28,18 +28,18 @@ export default class About extends React.Component {
             <div className='cont' id='about'>
                 <div className='aboutCont'>
                     <div className='top-row'>
-                    <Row className='boutRow m-3'>
+                    <Row className='boutRow mt-3 mb-3'>
                         <Col md="5">
                         <div className='aboutImg' >
                             <img src="/images/me.jpg"
-                            className="img-fluid fade-in slide-in-10 vh-50"
+                            className="img-fluid fade-in slide-in-10"
                             id="aboutMe-img"
                             alt="Portrait photo of Mason Keiser"
                             />
                         </div>
                         </Col>
-                        <Col md='6' >
-                            <div className='calendar m-3'></div>
+                        <Col md='6' className='cal' >
+                            <div className='calendar'></div>
                         </Col>
                     </Row>
                     </div>
@@ -91,6 +91,14 @@ export default class About extends React.Component {
                         </div>
                     </a>
                 </div>
+                <div className='aboutTitle'>
+                    <h2 className=''>About Me</h2>
+                </div>
+                 <div className="slide-in-10 pb-5 stor">
+                    <p>I&#39;m Mason Keiser, and I&#39;m a Software Engineer that has a passion for technology, coding, and the ocean.</p>
+                    <p>I&#39;ve developed skills in languages such as JavaScript (ES5 + ES6), React.js, jQuery, Node.js, Express, HTML, Bootstrap and CSS. My skills are accustomed to using tools such as; Git/GitHub, Postman, npm, and Webpack. I&#39;ve also participated in team-based hackathons, as well as solo projects, to build full-stack web applications.</p>
+                    <p>What got me interested in coding initially was the ability to create new and unique ways around everyday problems, but what keeps me going is my passion for making my ideas come to life through code.</p>
+                  </div>
                 </div>
             </div>
         )
