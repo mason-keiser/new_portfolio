@@ -30,7 +30,7 @@ export default class Home extends React.Component {
         }, 6000)
 
         return (
-            <div className='home-bg'>
+            <div className='home-bg' id='home'>
                 <img className='img' src='/images/landing.jpg'/>
                 <div className='nameContainer'>
                     <h1>Mason Keiser</h1>
