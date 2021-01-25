@@ -3,7 +3,7 @@
 body {
     margin: 0 0 0 0;
     font-family: 'Ubuntu', sans-serif;
-    overflow: scroll;
+    
 }
   
 * {
@@ -102,6 +102,8 @@ body {
     align-items: center;
     font-size: 25px;
     background-color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .toTopBtn:hover {
