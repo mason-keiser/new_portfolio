@@ -285,7 +285,6 @@ body {
 .card-body * {
     transition: .3s all;
     width: fit-content;
-    margin: auto;
     border: none
   }
 
@@ -301,6 +300,10 @@ body {
     border-bottom: 3px solid #24B67E;
     margin: auto;
     padding: 5px;
+}
+
+#sub {
+    color: #24B67E;
 }
 
 #project > img{
