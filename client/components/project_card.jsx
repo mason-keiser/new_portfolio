@@ -13,18 +13,19 @@ export default function ProjectCard(props) {
       style={{ animationDelay: props.delay + 'ms' }}>
         <a className="ribbon ribbon-top-right" href={props.project.github}><span >Github </span></a>
       <CardBody
-        className="p-0 h-25">
-        
-        <a href={props.project.live}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="pointer decoration-none h-50 position-relative"
-          id='project'>
-          <img src={props.project.image}
-            className="img-fluid h-50border-rounded proj-img"
-            alt={props.project.alt}
-            id='proj-Img' />
-        </a>
+        className="p-0 proj">
+        <div className='img-holder'>
+            <a href={props.project.live}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pointer decoration-noneposition-relative"
+            id='project'>
+                <img src={props.project.image}
+                className="img-fluid border-rounded proj-img"
+                alt={props.project.alt}
+                id='proj-Img' />
+            </a>
+        </div>
         <div href={props.project.live} className='p-3 bo black '>
         <a href={props.project.live} className='arrow'>▶</a>
             <a href={props.project.live} className=" appTit mt-3 font-weight-bold">

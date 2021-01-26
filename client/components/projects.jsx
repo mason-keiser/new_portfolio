@@ -34,6 +34,17 @@ export default class Projects extends React.Component {
                   live: 'https://bw.masonkeiser.com/'
               },
               {
+                id: 4,
+                image: '/images/code-notes.png',
+                alt: 'Home page image',
+                name: 'Code Notes',
+                subname: 'Full Stack Desktop Web Application',
+                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                description: 'A full stack web application for students who want to organize there Zoom recordings, class notes, and assignments in one place with their class/cohort-mate. ',
+                github: 'https://github.com/mason-keiser/class-notes',
+                live: 'https://code-notes.masonkeiser.com/'
+            },
+              {
                   id: 3,
                   image: '/images/nomad.png',
                   alt: 'Home page image',
@@ -43,17 +54,6 @@ export default class Projects extends React.Component {
                   description: 'A full-stack CRUD Application aimed to simulate an online shopping experience. ',
                   github: 'https://github.com/mason-keiser/wicked-sales-js',
                   live: 'https://wicked-sales.masonkeiser.com/'
-              },
-              {
-                  id: 4,
-                  image: '/images/code-notes.png',
-                  alt: 'Home page image',
-                  name: 'Code Notes',
-                  subname: 'Full Stack Desktop Web Application',
-                  technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
-                  description: 'A full stack web application for students who want to organize there Zoom recordings, class notes, and assignments in one place with their class/cohort-mate. ',
-                  github: 'https://github.com/mason-keiser/class-notes',
-                  live: 'https://code-notes.masonkeiser.com/'
               },
               {
                 id: 5,

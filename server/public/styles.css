@@ -412,6 +412,38 @@ body {
     background: #F5F5F5;
 }
 
+.proj {
+    overflow: hidden;
+}
+
+#project {
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+.img-holder {
+    height: 25vh;
+    overflow: hidden;
+}
+
+.proj-img {
+    overflow: hidden;
+    height: 25vh;
+}
+
+#project img {
+    transition: transform .5s ease;
+    overflow: hidden;
+
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  #project:hover img {
+    overflow: hidden;
+    transform: scale(1.5);
+    
+  }
+
 @keyframes animated-text{ 
     from{width: 0;}
 }
@@ -460,6 +492,11 @@ body {
         object-fit: cover;
       }
 
+      .img-holder {
+        height: 90vh;
+        overflow: hidden;
+    }
+
     #projCard{
         overflow: auto;
     }
@@ -475,6 +512,12 @@ body {
         
         object-fit: cover;
       }
+
+      .img-holder {
+        height: 35vh;
+        overflow: hidden;
+    }
+
       .bo {
           height: 35vh;
       }
@@ -521,6 +564,11 @@ body {
     #project > img{
         height: 35vh;
       }
+
+    .img-holder {
+        height: 35vh;
+        overflow: hidden;
+    }
 
     .bo {
         height: 35vh;
