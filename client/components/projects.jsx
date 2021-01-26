@@ -17,8 +17,8 @@ export default class Projects extends React.Component {
                   alt: 'Home page image',
                   name: 'My Health',
                   subname: 'Full Stack Web Application',
-                  technologies: ['React.js', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
-                  description: 'A full stack application for medical patients to keep track of their pain, symptoms and medications on a daily basis',
+                  technologies: 'Developed using React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                  description: 'A full stack application for medical patients to keep track of their pain, symptoms and medications on a daily basis. ',
                   github: 'https://github.com/mason-keiser/my-health',
                   live: 'https://mh.masonkeiser.com'
               },
@@ -28,8 +28,8 @@ export default class Projects extends React.Component {
                   alt: 'Home page image',
                   name: 'Beach Weather',
                   subname: 'Web Application',
-                  technologies: ['React.js','Bootstrap', 'HTML', 'CSS', 'GoogleMaps API', 'OpenWeatherMaps API'],
-                  description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user',
+                  technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API',
+                  description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
                   github: 'https://github.com/mason-keiser/beach-finder',
                   live: 'https://bw.masonkeiser.com/'
               },
@@ -39,8 +39,8 @@ export default class Projects extends React.Component {
                   alt: 'Home page image',
                   name: 'Nomadic Living',
                   subname: 'Full Stack Web Application',
-                  technologies: ['React.js', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
-                  description: 'A full-stack CRUD Application aimed to simulate an online shopping experience',
+                  technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                  description: 'A full-stack CRUD Application aimed to simulate an online shopping experience. ',
                   github: 'https://github.com/mason-keiser/wicked-sales-js',
                   live: 'https://wicked-sales.masonkeiser.com/'
               },
@@ -50,8 +50,8 @@ export default class Projects extends React.Component {
                   alt: 'Home page image',
                   name: 'Code Notes',
                   subname: 'Full Stack Desktop Web Application',
-                  technologies: ['React.js', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
-                  description: 'A full stack web application for students who want to organize there Zoom recordings, class notes, and assignments in one place with their class/cohort-mate',
+                  technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                  description: 'A full stack web application for students who want to organize there Zoom recordings, class notes, and assignments in one place with their class/cohort-mate. ',
                   github: 'https://github.com/mason-keiser/class-notes',
                   live: 'https://code-notes.masonkeiser.com/'
               },
@@ -61,8 +61,8 @@ export default class Projects extends React.Component {
                 alt: 'Home page image',
                 name: 'Daily Planner',
                 subname: 'Full Stack Web Application',
-                technologies: ['React.js', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
-                description: 'A full stack CRUD application to keep track and organize daily tasks',
+                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                description: 'A full stack CRUD web application that was designed to keep track and organize daily tasks. ',
                 github: 'https://github.com/mason-keiser/task-tracker',
                 live: 'https://planner.masonkeiser.com'
             }

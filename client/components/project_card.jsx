@@ -14,6 +14,7 @@ export default function ProjectCard(props) {
         <a className="ribbon ribbon-top-right" href={props.project.github}><span >Github </span></a>
       <CardBody
         className="p-0 h-25">
+        
         <a href={props.project.live}
           target="_blank"
           rel="noopener noreferrer"
@@ -24,13 +25,15 @@ export default function ProjectCard(props) {
             alt={props.project.alt}
             id='proj-Img' />
         </a>
-        <div className='p-3 '>
-            <h4 className=" mt-3 font-weight-bold">
+        <div href={props.project.live} className='p-3 black '>
+        <a href={props.project.live} className='arrow'> ▶</a>
+            <a href={props.project.live} className=" appTit mt-3 font-weight-bold">
                 {props.project.name}
-            </h4>
+            </a>
             <h6 id='sub' className='mt-3 mb-2'>{props.project.subname}</h6>
             <div className="d-flex align-content-start flex-wrap w-100 border-dark mt-3">
                 {(props.project.description)}
+                {props.project.technologies}
             </div>
         </div>
  

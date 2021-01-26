@@ -375,6 +375,33 @@ body {
     color:  #24B67E;
 }
 
+.appTit {
+    color: black;
+    font-size: large;
+    border: none;
+}
+
+.appTit:hover {
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.arrow {
+    color: #24B67E;
+    float: right;
+    font-size: x-large;
+    border-bottom: none;
+}
+
+.arrow:hover{
+    color: #24B67E;
+    font-size: xx-large;
+    border-bottom: none;
+    outline: none;
+    text-decoration: none;
+}
+
 @keyframes animated-text{ 
     from{width: 0;}
 }
