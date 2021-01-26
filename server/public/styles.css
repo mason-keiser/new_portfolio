@@ -317,6 +317,7 @@ body {
   }
 #projCard {
     box-shadow: 0px 3px #ECEBEB;
+    
 }
 
 .ribbon {
@@ -459,6 +460,10 @@ body {
         object-fit: cover;
       }
 
+    #projCard{
+        overflow: auto;
+    }
+
     .bo {
         height: 90vh;
     }
@@ -478,6 +483,10 @@ body {
     }
     .nameContainer > h1 {
         font-size: 50px;
+    }
+
+    .bo{
+        overflow: auto;
     }
 
     .cal {

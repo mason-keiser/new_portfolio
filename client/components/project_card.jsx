@@ -26,12 +26,12 @@ export default function ProjectCard(props) {
             id='proj-Img' />
         </a>
         <div href={props.project.live} className='p-3 bo black '>
-        <a href={props.project.live} className='arrow'> ▶</a>
+        <a href={props.project.live} className='arrow'>▶</a>
             <a href={props.project.live} className=" appTit mt-3 font-weight-bold">
                 {props.project.name}
             </a>
             <h6 id='sub' className='mt-3 mb-2'>{props.project.subname}</h6>
-            <div className="d-flex align-content-start flex-wrap w-100 border-dark mt-3">
+            <div className="des d-flex align-content-start flex-wrap w-100 border-dark mt-3">
                 {(props.project.description)}
                 {props.project.technologies}
             </div>

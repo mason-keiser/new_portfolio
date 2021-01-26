@@ -28,7 +28,7 @@ export default class Projects extends React.Component {
                   alt: 'Home page image',
                   name: 'Beach Weather',
                   subname: 'Web Application',
-                  technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API',
+                  technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API.',
                   description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
                   github: 'https://github.com/mason-keiser/beach-finder',
                   live: 'https://bw.masonkeiser.com/'

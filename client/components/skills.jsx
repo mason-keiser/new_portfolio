@@ -7,8 +7,8 @@ export default class Skills extends React.Component {
 
     render() {
         return (
-            <div className='skillsCont pt-2' id='skills'>
-                <div className=' fade-in projTitle pt-5 fade-in'>
+            <div className='skillsCont' id='skills'>
+                <div className=' fade-in projTitle  fade-in'>
                     <h1>Skills</h1>
                 </div>
             </div>
