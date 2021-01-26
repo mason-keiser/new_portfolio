@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+  Container,
+  Row,
+  Col
+} from 'reactstrap';
+import Grid from './project_grid'
 
 export default class Projects extends React.Component {
     constructor (props) {
@@ -65,6 +71,15 @@ export default class Projects extends React.Component {
             <div className='projCont' id='projects'>
                 <div className='projTitle fade-in'>
                     <h1>Projects</h1>
+                </div>
+                <div className="projects-section mt-4 mb-4 fade-in" id="projects">
+                    <Container>
+                        <Row>
+                            <Col xs="12">
+                                <Grid projects={this.state.projects}/>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
             </div>
         )

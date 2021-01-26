@@ -282,8 +282,15 @@ body {
     padding: 1rem;
 }
 
+.card-body * {
+    transition: .3s all;
+    width: fit-content;
+    margin: auto;
+    border: none
+  }
+
 .projCont{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background: #F5F5F5;
     padding: 1rem;
@@ -294,6 +301,16 @@ body {
     border-bottom: 3px solid #24B67E;
     margin: auto;
     padding: 5px;
+}
+
+#project > img{
+    height: 35vh;
+    
+    object-fit: cover;
+  }
+
+#projCard {
+    box-shadow: 0px 3px #ECEBEB;
 }
 
 @keyframes animated-text{ 
@@ -339,7 +356,10 @@ body {
         width: auto;
     }
 
-
+    #project > img{
+        height: 90vh;
+        object-fit: cover;
+      }
 }
 
 @media screen and (max-width: 450px) {
@@ -376,5 +396,11 @@ body {
     .aboutCont {
         width: 90vw;
     }
+
+}
+@media screen and (min-width: 1000px) {
+    #project > img{
+        height: 25vh;
+      }
 }
 
