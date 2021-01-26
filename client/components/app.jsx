@@ -3,6 +3,7 @@ import About from './about';
 import Header from './header';
 import Home from './home';
 import Projects from './projects';
+import Skills from './skills';
 
 class App extends React.Component {
     constructor() {
@@ -51,6 +52,7 @@ class App extends React.Component {
             <Home/>
             <About/>
             <Projects/>
+            <Skills/>
         </div>
       );
     }

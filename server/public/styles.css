@@ -312,6 +312,9 @@ body {
     object-fit: cover;
   }
 
+  .bo {
+      height: 25vh;
+  }
 #projCard {
     box-shadow: 0px 3px #ECEBEB;
 }
@@ -402,6 +405,12 @@ body {
     text-decoration: none;
 }
 
+.skillsCont {
+    height: 100vh;
+    width: 100vw;
+    background: #F5F5F5;
+}
+
 @keyframes animated-text{ 
     from{width: 0;}
 }
@@ -449,6 +458,10 @@ body {
         height: 90vh;
         object-fit: cover;
       }
+
+    .bo {
+        height: 90vh;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -456,6 +469,9 @@ body {
         height: 35vh;
         
         object-fit: cover;
+      }
+      .bo {
+          height: 35vh;
       }
     .nav-item > a {
         font-size: 20px;
@@ -496,5 +512,9 @@ body {
     #project > img{
         height: 35vh;
       }
+
+    .bo {
+        height: 35vh;
+    }
 }
 

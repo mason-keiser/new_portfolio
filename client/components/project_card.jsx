@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
  
   
   return (
-    <Card id='projCard' className=" fade-in h-100 rounded border slide-in-10 mt-5 mb-5 ml-3 mr-3"
+    <Card id='projCard' className=" fade-in rounded border slide-in-10 mt-5 mb-5 ml-3 mr-3"
       style={{ animationDelay: props.delay + 'ms' }}>
         <a className="ribbon ribbon-top-right" href={props.project.github}><span >Github </span></a>
       <CardBody
@@ -25,7 +25,7 @@ export default function ProjectCard(props) {
             alt={props.project.alt}
             id='proj-Img' />
         </a>
-        <div href={props.project.live} className='p-3 black '>
+        <div href={props.project.live} className='p-3 bo black '>
         <a href={props.project.live} className='arrow'> ▶</a>
             <a href={props.project.live} className=" appTit mt-3 font-weight-bold">
                 {props.project.name}

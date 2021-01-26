@@ -179,7 +179,7 @@ export default class Header extends React.Component {
                     <NavItem className="ml-md-5">
                       <Link activeClass="active"
                         id='item'
-                        to=""
+                        to="skills"
                         spy={true}
                         smooth={true}
                         offset={offset}
