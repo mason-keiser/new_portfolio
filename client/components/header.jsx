@@ -21,6 +21,7 @@ export default class Header extends React.Component {
           };
         this.handleToggle = this.handleToggle.bind(this)
         this.navbarIcon = this.navbarIcon.bind(this);
+        this.closeExt = this.closeExt.bind(this);
     }
 
     componentDidUpdate() {
@@ -46,6 +47,14 @@ export default class Header extends React.Component {
       } if (this.state.isOpen == false) {
         span[0].innerText = null
         spanObj.replace('btn-close', 'navbar-toggler-icon')
+      }
+    }
+
+    closeExt() {
+      if (window.innerWidth < 768) {
+        this.handleToggle()
+      } else {
+        null
       }
     }
 
@@ -112,7 +121,7 @@ export default class Header extends React.Component {
                         offset={offset}
                         duration={1000}
                         className="pointer px-0 nav-link"
-                        onClick={this.handleToggleå}>
+                        onClick={this.handleToggle}>
                         Home
                       </Link>
                     </NavItem>
@@ -125,7 +134,7 @@ export default class Header extends React.Component {
                         offset={offset}
                         duration={1000}
                         className="pointer px-0 nav-link"
-                        onClick={this.handleToggleå}>
+                        onClick={this.handleToggle }>
                         About
                       </Link>
                     </NavItem>
@@ -138,7 +147,7 @@ export default class Header extends React.Component {
                         offset={offset}
                         duration={1000}
                         className="pointer px-0 nav-link"
-                        onClick={this.handleToggleå}>
+                        onClick={this.handleToggle}>
                           Projects
                       </Link>
                     </NavItem>
