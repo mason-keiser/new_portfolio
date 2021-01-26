@@ -16,8 +16,12 @@ body {
 #icon:hover {
     background:  #24B67E;;
     color: white;
-    border: 3px solid white;
     
+    
+}
+
+#icon > i {
+    font-size: x-large;
 }
 
 ::-webkit-scrollbar {
