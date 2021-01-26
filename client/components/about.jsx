@@ -25,8 +25,8 @@ export default class About extends React.Component {
 
     render() {
         return(
-            <div className='cont' id='about'>
-                <div className='aboutCont'>
+            <div className='cont' >
+                <div className='aboutCont' id='about'>
                     <div className='top-row'>
                     <Row className='boutRow mt-3 mb-3'>
                         <Col md="5">
