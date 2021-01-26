@@ -9,8 +9,9 @@ export default function ProjectCard(props) {
  
   
   return (
-    <Card id='projCard' className="h-100 rounded border slide-in-10 mt-5 mb-5"
+    <Card id='projCard' className=" fade-in h-100 rounded border slide-in-10 mt-5 mb-5 ml-3 mr-3"
       style={{ animationDelay: props.delay + 'ms' }}>
+        <a className="ribbon ribbon-top-right" href={props.project.github}><span >Github </span></a>
       <CardBody
         className="p-0 h-25">
         <a href={props.project.live}
@@ -24,14 +25,15 @@ export default function ProjectCard(props) {
             id='proj-Img' />
         </a>
         <div className='p-3 '>
-            <h5 className=" mt-3 font-weight-bold">
+            <h4 className=" mt-3 font-weight-bold">
                 {props.project.name}
-            </h5>
+            </h4>
             <h6 id='sub' className='mt-3 mb-2'>{props.project.subname}</h6>
             <div className="d-flex align-content-start flex-wrap w-100 border-dark mt-3">
                 {(props.project.description)}
             </div>
         </div>
+ 
       </CardBody>
      
     </Card>
