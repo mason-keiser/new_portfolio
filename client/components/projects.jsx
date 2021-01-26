@@ -63,7 +63,7 @@ export default class Projects extends React.Component {
     render() {
         return (
             <div className='projCont' id='projects'>
-                <div className='projTitle'>
+                <div className='projTitle fade-in'>
                     <h1>Projects</h1>
                 </div>
             </div>

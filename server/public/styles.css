@@ -60,6 +60,15 @@ body {
     border-radius: 10px;
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+
+}
+.fade-in.appear {
+    opacity: 1;
+}
+
 .contrib-footer {
     font-size: 1px;
     padding: 0 10px 12px;
