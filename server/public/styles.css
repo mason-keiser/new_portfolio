@@ -624,7 +624,7 @@ a:hover {
     }
 
       .bo {
-          height: 35vh;
+          height: 100%;
       }
     .nav-item > a {
         font-size: 20px;
