@@ -8,7 +8,7 @@ import Tools_Card from './tools_card';
 function Tools_Grid(props) {
   return (
     <Row
-      className=" fade-in row-cols-1 row-cols-md-3 row-cols-lg-4 justify-content-center pt-5">
+      className=" fade-in row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center pt-5">
       {getTools(props.tools)}
     </Row>
   );
