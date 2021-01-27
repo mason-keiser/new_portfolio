@@ -31,7 +31,7 @@ export default class Home extends React.Component {
 
         return (
             <div className='home-bg' id='home'>
-                <img className='img' src='/images/landing.jpg'/>
+                <img className='img' src='/images/code.jpg'/>
                 <div className='nameContainer'>
                     <h1>Mason Keiser</h1>
                     <h4 className='animateT' id = 'textTrans'>Software Engineer</h4>
