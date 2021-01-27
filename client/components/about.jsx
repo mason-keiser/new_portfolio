@@ -4,6 +4,9 @@ import {
     Row,
     Col
   } from 'reactstrap';
+  import {
+    Link
+  } from 'react-scroll';
 
 export default class About extends React.Component {
     constructor(props) {
@@ -98,6 +101,17 @@ export default class About extends React.Component {
                     <p>I&#39;m Mason Keiser, and I&#39;m a Software Engineer that has a passion for technology, coding, and the ocean.</p>
                     <p>I&#39;ve developed skills in languages such as JavaScript (ES5 + ES6), React.js, jQuery, Node.js, Express, HTML, Bootstrap and CSS. My skills are accustomed to using tools such as; Git/GitHub, Postman, npm, and Webpack. I&#39;ve also participated in team-based hackathons, as well as solo projects, to build full-stack web applications.</p>
                     <p>What got me interested in coding initially was the ability to create new and unique ways around everyday problems, but what keeps me going is my passion for making my ideas come to life through code.</p>
+                  </div>
+                  <div className='contactButton'>
+                  <Link activeClass="active"
+                        id='cbtn'
+                        to="thanks"
+                        spy={true}
+                        smooth={true}
+                        duration={1000}
+                        className="pointer nav-link">
+                        Contact Me
+                      </Link>
                   </div>
                 </div>
             </div>

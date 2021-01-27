@@ -5,19 +5,19 @@ import Home from './home';
 import Projects from './projects';
 import Segwey from './segwey';
 import Skills from './skills';
+import ThankYou from './thankyou';
 import Tools from './tools'
 
 class App extends React.Component {
     constructor() {
       super();
       this.fade =this.fade.bind(this)
-      this.borderB = this.borderB.bind(this);
+
     }
 
     componentDidMount() {
         setInterval(() => {
             this.fade()
-            this.borderB()
         },2000)
         
     }
@@ -48,12 +48,6 @@ class App extends React.Component {
             appearOnScroll.observe(fader)
         })
     }
-
-    borderB() {
-        const navItems =document.querySelectorAll('#item');
-        const gNavitems = document.querySelectorAll('#g')
-        console.log(navItems, gNavitems)
-    }
   
     render() {
       return (
@@ -65,6 +59,7 @@ class App extends React.Component {
             <Skills/>
             <Segwey/>
             <Tools/>
+            <ThankYou/>
         </div>
       );
     }
