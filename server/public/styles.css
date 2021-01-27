@@ -463,7 +463,7 @@ a:hover {
 
 .skillC {
     height: 35vh;
-    border-radius: 10px;
+    border-radius: 100px;
     box-shadow: -3px 3px #ECEBEB;
     perspective: 30px;
 }

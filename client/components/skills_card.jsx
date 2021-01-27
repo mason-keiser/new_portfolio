@@ -8,6 +8,7 @@ import LazyLoad from 'react-lazy-load';
 
 
 
+
 export default class Skills_Card extends React.Component{
   constructor(props) {
     super(props)
@@ -23,10 +24,8 @@ export default class Skills_Card extends React.Component{
   }
 
   mouse() {
-    $('.js-tilt').tilt({
-      glare: true,
-      maxGlare: .5
-  })
+    
+   
   }
 
   render() {
