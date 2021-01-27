@@ -64,6 +64,7 @@ a:hover {
     border: 5px solid  #24B67E;;
     text-decoration: none;
     border-radius: 50%;
+    transition: ease-in-out 300ms;
 }
 
 #icon2:hover{
@@ -71,6 +72,7 @@ a:hover {
     color: white;
     border: 5px solid #AFE5D1;
     text-decoration: none;
+    transition: ease-in-out 300ms;
 }
 
 .boutRow{

@@ -36,7 +36,7 @@ export default class Skills_Card extends React.Component{
     <Col 
       className="mr-5 ml-5 mobile-card m-auto skillC p-0" id='skillC'>
       <Card data-tilt className=' js-tilt h-100 skills-card border-0 slide-in-10 p-0' id='skillCard'>
-        <CardBody className='m-auto' id='inner'>
+        <CardBody className='m-auto' style={{flex: 'none'}} id='inner'>
         <div className='d-flex flex-column justify-content-center'>
           <LazyLoad
             className='m-auto'
