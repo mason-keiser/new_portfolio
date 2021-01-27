@@ -22,13 +22,23 @@ export default class Header extends React.Component {
         this.handleToggle = this.handleToggle.bind(this)
         this.navbarIcon = this.navbarIcon.bind(this);
         this.closeExt = this.closeExt.bind(this);
+        this.handleScroll = this.handleScroll.bind(this);
     }
 
     componentDidUpdate() {
       this.navbarIcon()
+      setTimeout(() => {
+        this.handleScroll()
+      },2000)
     }
     componentDidMount() {
       this.navbarIcon()
+    }
+
+    handleScroll() {
+      const navItems =document.querySelectorAll('#item');
+      console.log(navItems)
+      console.log('helllo')
     }
 
     handleToggle() {

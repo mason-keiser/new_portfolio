@@ -28,7 +28,7 @@ export default class About extends React.Component {
             <div className='cont' >
                 <div className='aboutCont fade-in' id='about'>
                     <div className='top-row'>
-                    <Row className='boutRow mt-3 mb-3'>
+                    <Row className='boutRow mt-1 mb-3'>
                         <Col md="5">
                         <div className='aboutImg' >
                             <img src="/images/me.jpg"

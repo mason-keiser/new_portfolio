@@ -22,7 +22,7 @@ function getProjects(projectsArray) {
     delay += 100;
     return (
       <Col key={index}
-        className="mb-2">
+        className="mb-2" id='fold'>
         {project.description
           ? <ProjectCard project={project}
             delay={delay}
