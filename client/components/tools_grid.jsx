@@ -9,7 +9,7 @@ function Tools_Grid(props) {
   return (
     <Row
       className=" fade-in row-cols-1 row-cols-md-3 row-cols-lg-4 justify-content-center pt-5">
-      {getTools(props.skills)}
+      {getTools(props.tools)}
     </Row>
   );
 }
@@ -24,7 +24,7 @@ function getTools(toolsArray) {
       <Col key={index}
         className="mb-4 mt-4">
         {tool.name
-          ? <Tools_Card skill={tool}
+          ? <Tools_Card tool={tool}
             delay={delay}
             />
           : null}

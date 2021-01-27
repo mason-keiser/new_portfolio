@@ -8,7 +8,7 @@ export default class Segwey extends React.Component {
     render() {
         return (
             <div className='segweyCont'>
-                <img src="/images/contact.jpg" alt=""/>
+                <img src="/images/contact.jpg" alt="" id/>
             </div>
         )
     }

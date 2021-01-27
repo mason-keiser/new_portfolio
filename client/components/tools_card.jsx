@@ -29,9 +29,6 @@ export default class Tools_Card extends React.Component{
   }
 
   render() {
-    const tert = (this.props.skill.subname) ? 
-        <h5 className='m-auto'>{this.props.skill.subname}</h5> : 
-        <h5 className='m-auto line'></h5>
   return (
     <Col 
       className="mr-5 ml-5 mobile-card m-auto skillC p-0" id='skillC'>
@@ -45,14 +42,15 @@ export default class Tools_Card extends React.Component{
             offsetVertical={350}>
             <div className="decoration-none border-div-small d-flex" id='icon2'>
                 <i id='skillIcon' alt="Icon"
-                className={ `${this.props.skill.className}` }/>
+                className={ `${this.props.tool.className}` }/>
             </div>
           </LazyLoad>
           <div className="my-3">
-            <h4 className="text-center">{this.props.skill.name}</h4>
+            <h4 className="text-center">{this.props.tool.name}</h4>
           </div>
           <div className='m-auto'>
-            {tert}
+            <h5 className='m-auto line'></h5>
+            
           </div>
         </div>
         </CardBody>

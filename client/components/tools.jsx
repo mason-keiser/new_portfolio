@@ -9,44 +9,42 @@ export default class Tools extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            skills : [
+            tools : [
                 {
-                    name: 'HTML',
-                    className: 'devicon-html5-plain'
+                    name: 'GitHub',
+                    className: 'devicon-github-original'
                 }, 
                 {
-                    name: 'CSS',
-                    className: 'devicon-css3-plain-wordmark'
+                    name: 'AWS',
+                    className: 'devicon-amazonwebservices-original'
                 },
                 {
-                    name: 'React.js',
-                    className: 'devicon-react-original-wordmark'
+                    name: 'npm',
+                    className: 'devicon-npm-original-wordmark'
                 }, 
                 {
-                    name: 'Node.js',
-                    className: 'devicon-nodejs-plain'
+                    name: 'Webpack',
+                    className: 'devicon-webpack-plain'
                 },
                 {
-                    name: 'JavaScript',
-                    className: 'devicon-javascript-plain',
-                    subname: 'Es5 & Es6'
+                    name: 'Babel',
+                    className: 'devicon-babel-plain'
                 },
                 {
-                    name: 'PostgreSQL',
-                    className: 'devicon-postgresql-plain'
+                    name: 'VS Code',
+                    className: 'devicon-visualstudio-plain'
                 },
                 {
-                    name: 'jQuery',
-                    className: 'devicon-jquery-plain'
+                    name: 'Ubuntu',
+                    className: 'devicon-ubuntu-plain'
                 },
                 {
-                    name: 'Bootstrap',
-                    className: 'devicon-bootstrap-plain',
-                    subname: '3 & 4'
+                    name: 'Slack',
+                    className: 'devicon-slack-plain'
                 },
                 {
-                    name: 'Express',
-                    className: 'devicon-express-original'
+                    name: 'Docker',
+                    className: 'devicon-docker-plain'
                 }
             ]
         } 
@@ -62,7 +60,7 @@ export default class Tools extends React.Component {
                     <Container>
                         <Row>
                             <Col xs="12">
-                                <Tools_Grid skills={this.state.skills}/>
+                                <Tools_Grid tools={this.state.tools}/>
                             </Col>
                         </Row>
                     </Container>
