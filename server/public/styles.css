@@ -45,6 +45,25 @@ a:hover {
     text-align: center;
     
 }
+#skillIcon{
+   font-size: 3.5rem;
+   
+}
+
+#icon2 {
+    background:  white;
+    padding: 1rem;
+    border: 5px solid  #24B67E;;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+#icon2:hover{
+    background:  #24B67E;;
+    color: white;
+    border: 5px solid #AFE5D1;
+    text-decoration: none;
+}
 
 .boutRow{
     align-items: center;
@@ -292,10 +311,11 @@ a:hover {
     padding: 1rem;
 }
 
-.card-body * {
+.card-body {
     transition: .3s all;
     width: fit-content;
-    border: none
+    border: none;
+   
   }
 
 .projCont{
@@ -417,9 +437,22 @@ a:hover {
 }
 
 .skillsCont {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background: #F5F5F5;
+    overflow: hidden;
+}
+
+.line{
+    border-bottom: 2px solid black;
+    width: 5vw;
+    height: 5px;
+}
+
+.skillC {
+    height: 35vh;
+    border-radius: 10px;
+    box-shadow: 0px 3px #ECEBEB;
 }
 
 .proj {
@@ -490,6 +523,10 @@ a:hover {
 @media screen and (orientation: landscape) and (max-height: 450px) {
     #item {
         font-size: 15px;
+    }
+    .skillC {
+        height: 70vh;
+       
     }
     .green{
         font-size: 15px;
@@ -614,6 +651,9 @@ a:hover {
     }
     .bo {
         height: 40vh;
+    }
+    .line{
+        width: 25vw
     }
 }
 
