@@ -6,15 +6,38 @@ import {
 } from 'reactstrap';
 import LazyLoad from 'react-lazy-load';
 
-export default function Skills_Card(props) {
-    const tert = (props.skill.subname) ? 
-        <h5 className='m-auto'>{props.skill.subname}</h5> : 
+
+
+export default class Skills_Card extends React.Component{
+  constructor(props) {
+    super(props)
+    this.mouse = this.mouse.bind(this);
+  }
+
+  componentDidMount() {
+    setInterval(() => {
+      this.mouse()
+    }, 1);
+   
+  
+  }
+
+  mouse() {
+    $('.js-tilt').tilt({
+      glare: true,
+      maxGlare: .5
+  })
+  }
+
+  render() {
+    const tert = (this.props.skill.subname) ? 
+        <h5 className='m-auto'>{this.props.skill.subname}</h5> : 
         <h5 className='m-auto line'></h5>
   return (
     <Col 
-      className="mr-5 ml-5 mobile-card m-auto skillC p-0">
-      <Card className='h-100 skills-card border-0 slide-in-10 p-0' id='skillCard'>
-        <CardBody className='m-auto'>
+      className="mr-5 ml-5 mobile-card m-auto skillC p-0" id='skillC'>
+      <Card data-tilt className=' js-tilt h-100 skills-card border-0 slide-in-10 p-0' id='skillCard'>
+        <CardBody className='m-auto' id='inner'>
         <div className='d-flex flex-column justify-content-center'>
           <LazyLoad
             className='m-auto'
@@ -23,11 +46,11 @@ export default function Skills_Card(props) {
             offsetVertical={350}>
             <div className="decoration-none border-div-small d-flex" id='icon2'>
                 <i id='skillIcon' alt="Icon"
-                className={ `${props.skill.className}` }/>
+                className={ `${this.props.skill.className}` }/>
             </div>
           </LazyLoad>
           <div className="my-3">
-            <h4 className="text-center">{props.skill.name}</h4>
+            <h4 className="text-center">{this.props.skill.name}</h4>
           </div>
           <div className='m-auto'>
             {tert}
@@ -37,4 +60,5 @@ export default function Skills_Card(props) {
       </Card>
     </Col>
     )
+  }
 }
