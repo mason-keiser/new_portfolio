@@ -49,7 +49,7 @@ export default class About extends React.Component {
                             rel="noopener noreferrer"
                             className="decoration-none contact-github pointer mr-2"
                             aria-label="Github">
-                            <div className="border-div-small d-flex" id='icon'>
+                            <div className="decoration-none border-div-small d-flex" id='icon'>
                                 <i className="fab fa-github text-black  m-auto" />
                             </div>
                         </a>
@@ -58,7 +58,7 @@ export default class About extends React.Component {
                         rel="noopener noreferrer"
                         className="decoration-none  contact-linkedin pointer mr-2"
                         aria-label="LinkedIn">
-                        <div className="border-div-small d-flex" id='icon'>
+                        <div className="decoration-none border-div-small d-flex" id='icon'>
                             <i className="fab fa-linkedin text-black small-font m-auto" />
                         </div>
                     </a>
@@ -67,7 +67,7 @@ export default class About extends React.Component {
                         rel="noopener noreferrer"
                         className="decoration-none contact-general pointer mr-2"
                         aria-label="Phone">
-                        <div className="border-div-small d-flex" id='icon'>
+                        <div className="decoration-none border-div-small d-flex" id='icon'>
                             <i className="fas fa-phone-alt text-black small-font m-auto" />
                         </div>
                     </a>
@@ -76,7 +76,7 @@ export default class About extends React.Component {
                         rel="noopener noreferrer"
                         className="decoration-none default-color contact-general pointer mr-2"
                         aria-label="Email">
-                        <div className="border-div-small d-flex black" id='icon'>
+                        <div className="decoration-none border-div-small d-flex black" id='icon'>
                             <i className="far text-black fa-envelope small-font m-auto" />
                         </div>
                     </a>
@@ -86,7 +86,7 @@ export default class About extends React.Component {
                         className="decoration-none contact-general pointer"
                         aria-label="Resume Download"
                         download>
-                        <div className="border-div-small d-flex" id='icon'>
+                        <div className=" decoration-none border-div-small d-flex" id='icon'>
                             <i className="far fa-file-alt text-black small-font m-auto" />
                         </div>
                     </a>
