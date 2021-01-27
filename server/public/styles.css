@@ -107,6 +107,23 @@ a:hover {
     transition: ease-in-out 300ms;
 }
 
+#icon3 {
+    color: white;
+    padding: 1rem;
+    border: 10px solid  #24B67E;;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: ease-in-out 300ms;
+}
+
+#icon3:hover{
+    background:  #24B67E;;
+    color: white;
+    border: 10px solid #AFE5D1;
+    text-decoration: none;
+    transition: ease-in-out 300ms;
+}
+
 .boutRow{
     align-items: center;
     justify-content: space-around;
@@ -613,6 +630,9 @@ a:hover {
     .line {
         width: 25vw;
     }
+    .segweyCont {
+        height: 120vh;
+    }
 }
   
 @media screen and (max-width: 780px) and (min-height: 1000px) {
@@ -634,6 +654,9 @@ a:hover {
 }
 
 @media screen and (orientation: landscape) and (max-height: 450px) {
+    .segweyCont {
+        height: 120vh;
+    }
     .thankYouCont{
         height: 100vh;
     }
@@ -791,6 +814,10 @@ a:hover {
     .line{
         width: 25vw
     }
+
+    .segweyCont {
+        height: 120vh;
+    }
 }
 
 @media screen and (max-height: 600px) and (max-width: 330px) {
@@ -830,6 +857,18 @@ a:hover {
 @media screen and (max-width: 330px) {
     #inner {
         padding: 0.25rem;
+    }
+
+    .segweyCont {
+        height: 140vh;
+    }
+}
+
+@media screen and (max-height: 330px) {
+ 
+
+    .segweyCont {
+        height: 280vh;
     }
 }
 
