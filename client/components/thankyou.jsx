@@ -23,9 +23,9 @@ export default class ThankYou extends React.Component {
                     </div>
                     <div className='centRow'>
                         <div className=' fade-in d-flex flex-column align-content-center' id='lincs'>
-                            <h6>Orange County, CA, 92679</h6>
+                            <h6>Orange County CA, 92679</h6>
                             <a href="mailto:masonksr5@gmail.com"  rel="noopener noreferrer">masonksr5@gmail.com</a>
-                            <a className='m-1' href="tel:+17145048070">+(714)-504-8070</a>
+                            <a className='m-1 num' href="tel:+17145048070">+1-(714)-504-8070</a>
                         </div>
                         <div className="my-3 mb-2 d-flex justify-content-center fade-in slide-in-10 pt-2 border-black" style={{color: 'black'}}>
                             <a href="https://github.com/mason-keiser/" 

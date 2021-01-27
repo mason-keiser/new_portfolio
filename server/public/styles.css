@@ -226,6 +226,7 @@ a:hover {
 }
 
 .thankYouCont {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -658,7 +659,8 @@ a:hover {
         height: 120vh;
     }
     .thankYouCont{
-        height: 100vh;
+        height: 110vh;
+        padding-top: 3rem;
     }
 
     .thanksCont {
@@ -862,11 +864,17 @@ a:hover {
     .segweyCont {
         height: 140vh;
     }
+
+    .thanksCont {
+        width: 85vw;
+    }
 }
 
 @media screen and (max-height: 330px) {
  
-
+    .num{
+        margin-bottom: 0;
+    }
     .segweyCont {
         height: 280vh;
     }
