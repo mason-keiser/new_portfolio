@@ -135,7 +135,7 @@ export default class Header extends React.Component {
         }  
         
             return (
-                <Container fluid={true} className="py-3 shadow-md sticky-top" id="navbar">
+                <Container fluid={true} className="py-3 shadow-lg sticky-top" id="navbar">
                 <Navbar color="faded" light
                   expand="md"
                   className=" py-0 mx-auto nav navbar-dark" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
