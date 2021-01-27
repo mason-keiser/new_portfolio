@@ -868,6 +868,9 @@ a:hover {
     .thanksCont {
         width: 85vw;
     }
+    .header-logo {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-height: 330px) {
