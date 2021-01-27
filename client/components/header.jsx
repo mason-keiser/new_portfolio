@@ -45,12 +45,14 @@ export default class Header extends React.Component {
         span[0].innerText = 'X'
         spanObj.replace('navbar-toggler-icon', 'btn-close')
         document.getElementById("navbar").style.background = "white";
+        
         let navItems = document.querySelectorAll('.nav-item');
         for (let i = 0; i < navItems.length; i++) {
           navItems[i].firstChild.style.color = '#24B67E'
           navItems[i].firstChild.classList.add('green')
          navItems[i].firstChild.id = ''
         }
+        document.getElementById("navbar").style.transition = '400ms ease-in'
         let nav = document.querySelector('nav');
           nav.classList.remove('navbar-dark');
           nav.classList.add('navbar-light')
@@ -61,12 +63,14 @@ export default class Header extends React.Component {
         spanObj.replace('btn-close', 'navbar-toggler-icon')
         document.getElementById("navbar").style.top = "0";
         document.getElementById("navbar").style.backgroundColor = "transparent";
+        
         let navItems = document.querySelectorAll('.nav-item');
         for (let i = 0; i < navItems.length; i++) {
             navItems[i].firstChild.style.color = 'white'
             navItems[i].firstChild.classList.remove('green')
             navItems[i].firstChild.id = 'item'
         }
+        document.getElementById("navbar").style.transition = '400ms ease-in'
         document.querySelector('.header-logo').style.color = 'white'
         let nav = document.querySelector('nav');
             nav.classList.remove('navbar-light');
@@ -94,12 +98,14 @@ export default class Header extends React.Component {
             var currentScrollPos = window.pageYOffset;
             if (currentScrollPos >= 200) {
                 document.getElementById("navbar").style.background = "white";
+               
                 let navItems = document.querySelectorAll('.nav-item');
                 for (let i = 0; i < navItems.length; i++) {
                     navItems[i].firstChild.style.color = '#24B67E'
                     navItems[i].firstChild.classList.add('green')
-                    navItems[i].firstChild.id = ''
+                    navItems[i].firstChild.id = 'g'
                 }
+                document.getElementById("navbar").style.transition = '400ms ease-in'
                 let nav = document.querySelector('nav');
                     nav.classList.remove('navbar-dark');
                     nav.classList.add('navbar-light')
@@ -107,7 +113,9 @@ export default class Header extends React.Component {
                 document.getElementById("btn").style.display = 'flex';
             } else if (prevScrollpos < 500 || prevScrollpos <= 0) {
                 document.getElementById("navbar").style.top = "0";
+                
                 document.getElementById("navbar").style.backgroundColor = "transparent";
+               
                 let navItems = document.querySelectorAll('.nav-item');
                 for (let i = 0; i < navItems.length; i++) {
                     navItems[i].firstChild.style.color = 'white'
@@ -115,6 +123,7 @@ export default class Header extends React.Component {
                     navItems[i].firstChild.id = 'item'
                 }
                 document.querySelector('.header-logo').style.color = 'white'
+                document.getElementById("navbar").style.transition = '400ms ease-in'
                 let nav = document.querySelector('nav');
                     nav.classList.remove('navbar-light');
                     nav.classList.add('navbar-dark')

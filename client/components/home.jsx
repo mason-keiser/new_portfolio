@@ -1,4 +1,5 @@
 import React from 'react';
+import StarfieldAnimation from 'react-starfield-animation';
 
 export default class Home extends React.Component {
     constructor(props){
@@ -31,7 +32,14 @@ export default class Home extends React.Component {
 
         return (
             <div className='home-bg' id='home'>
-                <img className='img' src='/images/code.jpg'/>
+                  <StarfieldAnimation className='starfield'
+               style={{
+               backgroundColor: 'black',
+               position: 'absolute',
+               width: '100%',
+               height: '100%',
+               margin: '0'
+          }}/>
                 <div className='nameContainer'>
                     <h1>Mason Keiser</h1>
                     <h4 className='animateT' id = 'textTrans'>Software Engineer</h4>
