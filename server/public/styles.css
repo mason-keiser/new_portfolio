@@ -500,6 +500,19 @@ a:hover {
     
   }
 
+.segweyCont {
+    height: 50vh;
+    width: 100vw;
+    background: #F5F5F5;
+}
+
+.segweyCont > img {
+    height: 100%;
+    width: 100vw;
+    opacity: 90%
+    ;
+}
+
 @keyframes animated-text{ 
     from{width: 0;}
 }

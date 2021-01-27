@@ -3,7 +3,9 @@ import About from './about';
 import Header from './header';
 import Home from './home';
 import Projects from './projects';
+import Segwey from './segwey';
 import Skills from './skills';
+import Tools from './tools'
 
 class App extends React.Component {
     constructor() {
@@ -53,6 +55,8 @@ class App extends React.Component {
             <About/>
             <Projects/>
             <Skills/>
+            <Segwey/>
+            <Tools/>
         </div>
       );
     }

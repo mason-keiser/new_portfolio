@@ -3,28 +3,28 @@ import {
   Row,
   Col
 } from 'reactstrap';
-import Skills_Card from './skills_card';
+import Tools_Card from './tools_card';
 
-function Skills_Grid(props) {
+function Tools_Grid(props) {
   return (
     <Row
       className=" fade-in row-cols-1 row-cols-md-3 row-cols-lg-4 justify-content-center pt-5">
-      {getSkills(props.skills)}
+      {getTools(props.skills)}
     </Row>
   );
 }
 
-export default Skills_Grid;
+export default Tools_Grid;
 
-function getSkills(skillsArray) {
+function getTools(toolsArray) {
   let delay = 0;
-  return skillsArray.map((skill, index) => {
+  return toolsArray.map((tool, index) => {
     delay += 100;
     return (
       <Col key={index}
         className="mb-4 mt-4">
-        {skill.name
-          ? <Skills_Card skill={skill}
+        {tool.name
+          ? <Tools_Card skill={tool}
             delay={delay}
             />
           : null}
