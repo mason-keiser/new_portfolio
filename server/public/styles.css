@@ -176,6 +176,14 @@ a:hover {
     padding-bottom: 4rem;
 }
 
+#item.active {
+    border-bottom: 2px solid white;
+}
+
+#g.active {
+    border-bottom: 2px solid #24B67E;
+}
+
 .aboutCont {
     display: flex;
     flex-direction: column;

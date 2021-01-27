@@ -11,11 +11,13 @@ class App extends React.Component {
     constructor() {
       super();
       this.fade =this.fade.bind(this)
+      this.borderB = this.borderB.bind(this);
     }
 
     componentDidMount() {
         setInterval(() => {
             this.fade()
+            this.borderB()
         },2000)
         
     }
@@ -45,6 +47,12 @@ class App extends React.Component {
         faders.forEach(fader => {
             appearOnScroll.observe(fader)
         })
+    }
+
+    borderB() {
+        const navItems =document.querySelectorAll('#item');
+        const gNavitems = document.querySelectorAll('#g')
+        console.log(navItems, gNavitems)
     }
   
     render() {
