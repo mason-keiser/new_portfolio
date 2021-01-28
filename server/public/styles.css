@@ -661,7 +661,7 @@ a:hover {
 
 @media screen and (orientation: landscape) and (max-height: 450px) {
     .segweyCont {
-        height: 120vh;
+        height: 220vh;
     }
     .thankYouCont{
         height: 110vh;
@@ -823,7 +823,7 @@ a:hover {
     }
 
     .segweyCont {
-        height: 120vh;
+        height: 140vh;
     }
 }
 
@@ -861,13 +861,23 @@ a:hover {
     }
 }
 
+@media screen and (max-height: 380px) and (min-width: 800px) {
+    .segweyCont{
+        height: 100vh;
+    }
+}
+
 @media screen and (max-width: 330px) {
     #inner {
         padding: 0.25rem;
     }
 
     .segweyCont {
-        height: 140vh;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
     }
 
     .thanksCont {

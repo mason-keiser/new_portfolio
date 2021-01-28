@@ -27,7 +27,7 @@ export default function ProjectCard(props) {
             </a>
         </div>
         <div href={props.project.live} className='p-3 bo black '>
-        <a href={props.project.live} className=' fa fa-arrow-right arrow'></a>
+        <a href={props.project.live} className={props.project.fa+ ' arrow'}></a>
             <a href={props.project.live} className=" appTit mt-3 font-weight-bold">
                 {props.project.name}
             </a>

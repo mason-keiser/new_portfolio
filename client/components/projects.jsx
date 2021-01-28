@@ -20,7 +20,8 @@ export default class Projects extends React.Component {
                   technologies: 'Developed using React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                   description: 'A full stack application for medical patients to keep track of their pain, symptoms and medications on a daily basis. ',
                   github: 'https://github.com/mason-keiser/my-health',
-                  live: 'https://mh.masonkeiser.com'
+                  live: 'https://mh.masonkeiser.com',
+                  fa: 'fas fa-heart'
               },
               {
                   id: 2,
@@ -31,7 +32,8 @@ export default class Projects extends React.Component {
                   technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API.',
                   description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
                   github: 'https://github.com/mason-keiser/beach-finder',
-                  live: 'https://bw.masonkeiser.com/'
+                  live: 'https://bw.masonkeiser.com/',
+                  fa: 'fas fa-sun'
               },
               {
                 id: 4,
@@ -42,7 +44,8 @@ export default class Projects extends React.Component {
                 technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                 description: 'A full stack web application for students who want to organize there Zoom recordings, class notes, and assignments in one place with their class/cohort-mate. ',
                 github: 'https://github.com/mason-keiser/class-notes',
-                live: 'https://code-notes.masonkeiser.com/'
+                live: 'https://code-notes.masonkeiser.com/',
+                fa: 'fa fa-address-book'
             },
               {
                   id: 3,
@@ -53,7 +56,8 @@ export default class Projects extends React.Component {
                   technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                   description: 'A full-stack CRUD Application aimed to simulate an online shopping experience. ',
                   github: 'https://github.com/mason-keiser/wicked-sales-js',
-                  live: 'https://wicked-sales.masonkeiser.com/'
+                  live: 'https://wicked-sales.masonkeiser.com/',
+                  fa: 'fa fa-shopping-bag'
               },
               {
                 id: 5,
@@ -64,7 +68,8 @@ export default class Projects extends React.Component {
                 technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                 description: 'A full stack CRUD web application that was designed to keep track and organize daily tasks. ',
                 github: 'https://github.com/mason-keiser/task-tracker',
-                live: 'https://planner.masonkeiser.com'
+                live: 'https://planner.masonkeiser.com',
+                fa: 'fa fa-book-open'
             }
           ]
         }
