@@ -27,7 +27,7 @@ export default class Segwey_Card extends React.Component{
             height={96}
             offsetVertical={350}>
             <div className="decoration-none border-div-small d-flex" id='icon3'>
-                <i id='skillIcon' alt="Icon"
+                <i id='skillIcon2' alt="Icon"
                 className='fas fa-check'/>
             </div>
           </LazyLoad>

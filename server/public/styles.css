@@ -613,6 +613,10 @@ a:hover {
     ;
 }
 
+#skillIcon2{
+    font-size: 3.5rem;
+}
+
 @keyframes animated-text{ 
     from{width: 0;}
 }
@@ -872,6 +876,12 @@ a:hover {
     .header-logo {
         font-size: 25px;
     }
+   .starfield2{
+        height: 140vh;
+   }
+   #skillIcon2{
+    font-size: 1.5rem;
+}
 }
 
 @media screen and (max-height: 330px) {
@@ -882,6 +892,10 @@ a:hover {
     .segweyCont {
         height: 280vh;
     }
+    #skillIcon2{
+        font-size: 1.5rem;
+    }
+   
 }
 
 @media screen and (max-width: 285px) {

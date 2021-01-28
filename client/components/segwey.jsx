@@ -30,9 +30,13 @@ export default class Segwey extends React.Component {
 
     render() {
         let delay  = 0;
+        let star = (window.screen.width < 340) ?
+             '140vh'
+            : 'inherit'
+
         return (
             <div className='segweyCont'>
-                 <StarfieldAnimation className='starfield'
+                 <StarfieldAnimation className='starfield2'
                 style={{
                 backgroundColor: 'black',
                 position: 'absolute',
