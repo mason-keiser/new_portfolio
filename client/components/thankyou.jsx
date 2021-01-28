@@ -30,6 +30,7 @@ export default class ThankYou extends React.Component {
                         <div className="my-3 mb-2 d-flex justify-content-center fade-in slide-in-10 pt-2 border-black" style={{color: 'black'}}>
                             <a href="https://github.com/mason-keiser/" 
                                 target="_blank"
+                                style={{textDecoration: 'none'}}
                                 rel="noopener noreferrer"
                                 className="decoration-none contact-github pointer mr-2"
                                 aria-label="Github">
@@ -39,6 +40,7 @@ export default class ThankYou extends React.Component {
                             </a>
                             <a href="https://www.linkedin.com/in/mason-keiser-55323bb9/" 
                                 target="_blank"
+                                style={{textDecoration: 'none'}}
                                 rel="noopener noreferrer"
                                 className="decoration-none  contact-linkedin pointer mr-2"
                                 aria-label="LinkedIn">
@@ -48,6 +50,7 @@ export default class ThankYou extends React.Component {
                             </a>
                             <a href="tel:+17145048070" 
                                 target="_blank"
+                                style={{textDecoration: 'none'}}
                                 rel="noopener noreferrer"
                                 className="decoration-none contact-general pointer mr-2"
                                 aria-label="Phone">
@@ -57,6 +60,7 @@ export default class ThankYou extends React.Component {
                             </a>
                             <a href="mailto:masonksr5@gmail.com" 
                                 target="_blank"
+                                style={{textDecoration: 'none'}}
                                 rel="noopener noreferrer"
                                 className="decoration-none default-color contact-general pointer mr-2"
                                 aria-label="Email">
@@ -67,6 +71,7 @@ export default class ThankYou extends React.Component {
                             <a href="/assets/Mason_Keiser_Resume.pdf" 
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                style={{textDecoration: 'none'}}
                                 className="decoration-none contact-general pointer"
                                 aria-label="Resume Download"
                                 download>
