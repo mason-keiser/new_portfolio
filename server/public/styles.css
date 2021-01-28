@@ -194,7 +194,8 @@ a:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    color: #24B67E;
+    color: white;
+    background: #24B67E;;
     border: 3px solid #24B67E;
     border-radius: 50%;
     display: none;
@@ -202,7 +203,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    background-color: white;
+    
     padding: 0;
     margin: 0;
 }
