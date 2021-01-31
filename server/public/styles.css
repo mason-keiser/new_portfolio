@@ -636,11 +636,11 @@ rect.day[fill="var(--color-calendar-graph-day-L1-bg)"] {
 }
 /* level 3 */
 rect.day[fill="var(--color-calendar-graph-day-L2-bg)"] {
-    fill: rgba(95, 130, 219, 0.8)
+    fill: rgba(95, 130, 219, 1)
 }
 /* level 4 */
 rect.day[fill="var(--color-calendar-graph-day-L3-bg)"] {
-    fill: rgba(95, 130, 219, 1)
+    fill: rgba(31, 58, 147, 0.8)
 }
 /* level 5 */
 rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
