@@ -12,20 +12,6 @@ import LazyLoad from 'react-lazy-load';
 export default class Tools_Card extends React.Component{
   constructor(props) {
     super(props)
-    this.mouse = this.mouse.bind(this);
-  }
-
-  componentDidMount() {
-    setInterval(() => {
-      this.mouse()
-    }, 1);
-   
-  
-  }
-
-  mouse() {
-    
-   
   }
 
   render() {
