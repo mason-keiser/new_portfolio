@@ -626,6 +626,27 @@ a:hover {
     to{border-right-color: transparent;}
   }
 
+rect.day[fill="var(--color-calendar-graph-day-bg)"] {
+    fill: rgba(0, 0, 0, 0.1)
+}
+
+/* level 2 */
+rect.day[fill="var(--color-calendar-graph-day-L1-bg)"] {
+    fill: rgba(95, 130, 219, 0.5)
+}
+/* level 3 */
+rect.day[fill="var(--color-calendar-graph-day-L2-bg)"] {
+    fill: rgba(95, 130, 219, 0.8)
+}
+/* level 4 */
+rect.day[fill="var(--color-calendar-graph-day-L3-bg)"] {
+    fill: rgba(95, 130, 219, 1)
+}
+/* level 5 */
+rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
+    fill: rgba(31, 58, 147, 1)
+}
+
 @media screen and (max-width :1050px) and (max-height: 1400px) {
     .aboutCont {
         width: 90vw;
