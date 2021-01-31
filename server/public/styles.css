@@ -25,7 +25,7 @@ a:hover {
 .contactButton {
     margin: auto;
     width: fit-content;
-    border: 3px solid  #24B67E;
+    border: 3px solid  #5F82DB;
     border-radius: 10px;
     padding: 5px;
     cursor: pointer;
@@ -48,16 +48,16 @@ a:hover {
 }
 
 .contactButton:hover {
-    background:  #24B67E;
+    background:  #5F82DB;
     color: white;
-    border: 3px solid #AFE5D1;
+    border: 3px solid #B0C2F2;
     text-decoration: none;
 }
 
 #icon:hover {
-    background:  #24B67E;
+    background:  #5F82DB;
     color: white;
-    border: 3px solid #AFE5D1;
+    border: 3px solid #B0C2F2;
     text-decoration: none;
 }
 
@@ -93,16 +93,16 @@ a:hover {
 #icon2 {
     background:  white;
     padding: 1rem;
-    border: 5px solid  #24B67E;;
+    border: 5px solid  #5F82DB;
     text-decoration: none;
     border-radius: 50%;
     transition: ease-in-out 300ms;
 }
 
 #icon2:hover{
-    background:  #24B67E;;
+    background:  #5F82DB;
     color: white;
-    border: 5px solid #AFE5D1;
+    border: 5px solid #B0C2F2;
     text-decoration: none;
     transition: ease-in-out 300ms;
 }
@@ -110,16 +110,16 @@ a:hover {
 #icon3 {
     color: white;
     padding: 1rem;
-    border: 10px solid  #24B67E;;
+    border: 10px solid  #5F82DB;
     text-decoration: none;
     border-radius: 50%;
     transition: ease-in-out 300ms;
 }
 
 #icon3:hover{
-    background:  #24B67E;;
+    background:  #5F82DB;
     color: white;
-    border: 10px solid #AFE5D1;
+    border: 10px solid #B0C2F2;
     text-decoration: none;
     transition: ease-in-out 300ms;
 }
@@ -132,7 +132,7 @@ a:hover {
 #icon {
     color: black;
     padding: 1rem;
-    border: 3px solid #24B67E;
+    border: 3px solid #5F82DB;
     border-radius: 50%;
     text-decoration: none;
 }
@@ -144,7 +144,7 @@ a:hover {
 }
 
 #aboutMe-Img {
-    border: 2px solid #24B67E;
+    border: 2px solid #5F82DB;
     border-radius: 10px;
 }
 
@@ -195,8 +195,8 @@ a:hover {
     bottom: 20px;
     right: 20px;
     color: white;
-    background: #24B67E;;
-    border: 3px solid #24B67E;
+    background: #5F82DB;
+    border: 3px solid #5F82DB;
     border-radius: 50%;
     display: none;
     flex-direction: column;
@@ -209,9 +209,9 @@ a:hover {
 }
 
 .toTopBtn:hover {
-    background: #24B67E;
+    background: #5F82DB;
     color: white;
-    border: 3px solid #AFE5D1;
+    border: 3px solid #B0C2F2;
 }
 
 .cont {
@@ -255,12 +255,12 @@ a:hover {
 }
 
 #lincs {
-    color: #24B67E;
+    color: #5F82DB;
     text-align: center;
 }
 
 #lincs > a {
-    color: #24B67E;
+    color: #5F82DB;
 }
 
 #item.active {
@@ -270,7 +270,7 @@ a:hover {
 
 #g.active {
     transition: ease-in 100ms;
-    border-bottom: 2px solid #24B67E;
+    border-bottom: 2px solid #5F82DB;
 }
 
 .aboutCont {
@@ -292,12 +292,12 @@ a:hover {
     border-bottom: 2px solid transparent; /* <- here */
     transition: border-bottom 1s;
     text-decoration: none;
-    color: #24B67E;
+    color: #5F82DB;
     cursor: pointer;
 }
 
 .green:hover {
-    border-bottom: 2px solid #24B67E;
+    border-bottom: 2px solid #5F82DB;
 }
 
 .header-logo {
@@ -377,7 +377,7 @@ a:hover {
     width: 200px;
     white-space: nowrap;
     overflow: hidden;
-    border-right: solid 3px #24B67E;
+    border-right: solid 3px #5F82DB;
     animation: animated-text 3s steps(29,end) 1s 1 normal both,
                animated-cursor 600ms steps(29,end) infinite;
 }
@@ -387,7 +387,7 @@ a:hover {
     width: 160px;
     white-space: nowrap;
     overflow: hidden;
-    border-right: solid 3px #24B67E;
+    border-right: solid 3px #5F82DB;
     animation: animated-text 3s steps(29,end) 1s 1 normal both,
                animated-cursor 600ms steps(29,end) infinite;
 }
@@ -397,13 +397,13 @@ a:hover {
     width: 250px;
     white-space: nowrap;
     overflow: hidden;
-    border-right: solid 3px #24B67E;
+    border-right: solid 3px #5F82DB;
     animation: animated-text 3s steps(29,end) 1s 1 normal both,
                animated-cursor 600ms steps(29,end) infinite;
 }
 
 .aboutTitle > h2 {
-    border-bottom: 3px solid #24B67E;
+    border-bottom: 3px solid #5F82DB;
     border-width: 50%;
     width: fit-content;
     margin-top: 1rem;
@@ -436,13 +436,13 @@ a:hover {
 
 .projTitle > h1 {
     width: fit-content;
-    border-bottom: 3px solid #24B67E;
+    border-bottom: 3px solid #5F82DB;
     margin: auto;
     padding: 5px;
 }
 
 #sub {
-    color: #24B67E;
+    color: #5F82DB;
 }
 
 #project > img{
@@ -474,7 +474,7 @@ a:hover {
     z-index: -1;
     content: '';
     display: block;
-    border: 5px solid #24B67E;
+    border: 5px solid #5F82DB;
   }
   .ribbon span {
     font-family: 'Ubuntu';
@@ -482,7 +482,7 @@ a:hover {
     display: block;
     width: 225px;
     padding: 15px 0;
-    background-color: #24B67E;
+    background-color: #5F82DB;
     box-shadow: 0 3px 5px rgba(0,0,0,.1);
     color: #fff;
     font: 700 18px/1 'Ubuntu';
@@ -517,7 +517,7 @@ a:hover {
 
 .ribbon span:hover {
     background-color: white;
-    color:  #24B67E;
+    color:  #5F82DB;
 }
 
 .appTit {
@@ -533,14 +533,14 @@ a:hover {
 }
 
 .arrow {
-    color: #24B67E;
+    color: #5F82DB;
     float: right;
     font-size: x-large;
     border-bottom: none;
 }
 
 .arrow:hover{
-    color: #24B67E;
+    color: #5F82DB;
     font-size: xx-large;
     border-bottom: none;
     outline: none;
@@ -622,7 +622,7 @@ a:hover {
 }
 
 @keyframes animated-cursor{
-    from{border-right-color: #24B67E;}
+    from{border-right-color: #5F82DB;}
     to{border-right-color: transparent;}
   }
 

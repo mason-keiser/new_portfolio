@@ -58,7 +58,7 @@ export default class Header extends React.Component {
         
         let navItems = document.querySelectorAll('.nav-item');
         for (let i = 0; i < navItems.length; i++) {
-          navItems[i].firstChild.style.color = '#24B67E'
+          navItems[i].firstChild.style.color = '#5F82DB'
           navItems[i].firstChild.classList.add('green')
          navItems[i].firstChild.id = ''
         }
@@ -66,7 +66,7 @@ export default class Header extends React.Component {
         let nav = document.querySelector('nav');
           nav.classList.remove('navbar-dark');
           nav.classList.add('navbar-light')
-        document.querySelector('.header-logo').style.color = '#24B67E'
+        document.querySelector('.header-logo').style.color = '#5F82DB'
         document.getElementById("btn").style.display = 'flex';
       } if (this.state.isOpen == false) {
         span[0].innerText = null
@@ -111,7 +111,7 @@ export default class Header extends React.Component {
                
                 let navItems = document.querySelectorAll('.nav-item');
                 for (let i = 0; i < navItems.length; i++) {
-                    navItems[i].firstChild.style.color = '#24B67E'
+                    navItems[i].firstChild.style.color = '#5F82DB'
                     navItems[i].firstChild.classList.add('green')
                     navItems[i].firstChild.id = 'g'
                 }
@@ -119,7 +119,7 @@ export default class Header extends React.Component {
                 let nav = document.querySelector('nav');
                     nav.classList.remove('navbar-dark');
                     nav.classList.add('navbar-light')
-                document.querySelector('.header-logo').style.color = '#24B67E'
+                document.querySelector('.header-logo').style.color = '#5F82DB'
                 document.getElementById("btn").style.display = 'flex';
             } else if (prevScrollpos < 500 || prevScrollpos <= 0) {
                 document.getElementById("navbar").style.top = "0";
