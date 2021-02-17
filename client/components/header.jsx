@@ -52,7 +52,8 @@ export default class Header extends React.Component {
       let spanObj = span[0].classList;
    
       if (this.state.isOpen == true) {
-        span[0].innerText = 'X'
+        span[0].innerText = ''
+        span[0].className = 'fa fa-times' 
         spanObj.replace('navbar-toggler-icon', 'btn-close')
         document.getElementById("navbar").style.background = "white";
         
@@ -69,7 +70,8 @@ export default class Header extends React.Component {
         document.querySelector('.header-logo').style.color = '#5F82DB'
         document.getElementById("btn").style.display = 'flex';
       } if (this.state.isOpen == false) {
-        span[0].innerText = null
+        span[0].className ='fa fa-bars'
+        span[0].style.fontSize = '1.5rem'
         spanObj.replace('btn-close', 'navbar-toggler-icon')
         document.getElementById("navbar").style.top = "0";
         document.getElementById("navbar").style.backgroundColor = "transparent";
