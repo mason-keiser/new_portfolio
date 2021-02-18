@@ -39,10 +39,6 @@ export default class Tools extends React.Component {
                     className: 'devicon-ubuntu-plain'
                 },
                 {
-                    name: 'Slack',
-                    className: 'devicon-slack-plain'
-                },
-                {
                     name: 'Docker',
                     className: 'devicon-docker-plain'
                 }

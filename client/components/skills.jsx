@@ -36,10 +36,6 @@ export default class Skills extends React.Component {
                     className: 'devicon-postgresql-plain'
                 },
                 {
-                    name: 'jQuery',
-                    className: 'devicon-jquery-plain'
-                },
-                {
                     name: 'Bootstrap',
                     className: 'devicon-bootstrap-plain',
                     subname: '3 & 4'
