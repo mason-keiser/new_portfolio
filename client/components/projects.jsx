@@ -29,8 +29,8 @@ export default class Projects extends React.Component {
                 alt: 'Home page image',
                 name: 'Under The Sea',
                 subname: 'Full Stack Web Application',
-                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
-                description: 'A memory match game that was designed with backend features to make a full stack React game. ',
+                technologies: 'Developed using; React.js, React Hooks, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                description: 'A memory match game that was designed with backend features to make a full-stack React game. ',
                 github: 'https://github.com/mason-keiser/mem-match-react',
                 live: 'https://mm.masonkeiser.com/',
                 fa: 'fas fa-umbrella-beach'
