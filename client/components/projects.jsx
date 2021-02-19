@@ -24,7 +24,19 @@ export default class Projects extends React.Component {
                   fa: 'fas fa-heart'
               },
               {
-                  id: 2,
+                id: 2,
+                image: '/images/uts.png',
+                alt: 'Home page image',
+                name: 'Under The Sea',
+                subname: 'Full Stack Web Application',
+                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                description: 'A memory match game that was designed with backend features to make a full stack React game. ',
+                github: 'https://github.com/mason-keiser/mem-match-react',
+                live: 'https://mm.masonkeiser.com/',
+                fa: 'fas fa-umbrella-beach'
+            },
+              {
+                  id: 3,
                   image: '/images/bw.png',
                   alt: 'Home page image',
                   name: 'Beach Weather',
@@ -37,6 +49,18 @@ export default class Projects extends React.Component {
               },
               {
                 id: 4,
+                image: '/images/nomad.png',
+                alt: 'Home page image',
+                name: 'Nomadic Living',
+                subname: 'Full Stack Web Application',
+                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                description: 'A full-stack CRUD Application aimed to simulate an online shopping experience. ',
+                github: 'https://github.com/mason-keiser/wicked-sales-js',
+                live: 'https://wicked-sales.masonkeiser.com/',
+                fa: 'fa fa-shopping-bag'
+            },
+              {
+                id: 5,
                 image: '/images/code-notes.png',
                 alt: 'Home page image',
                 name: 'Code Notes',
@@ -48,19 +72,7 @@ export default class Projects extends React.Component {
                 fa: 'fa fa-address-book'
             },
               {
-                  id: 3,
-                  image: '/images/nomad.png',
-                  alt: 'Home page image',
-                  name: 'Nomadic Living',
-                  subname: 'Full Stack Web Application',
-                  technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
-                  description: 'A full-stack CRUD Application aimed to simulate an online shopping experience. ',
-                  github: 'https://github.com/mason-keiser/wicked-sales-js',
-                  live: 'https://wicked-sales.masonkeiser.com/',
-                  fa: 'fa fa-shopping-bag'
-              },
-              {
-                id: 5,
+                id: 6,
                 image: '/images/screen.png',
                 alt: 'Home page image',
                 name: 'Daily Planner',
