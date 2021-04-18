@@ -49,7 +49,7 @@ export default class Projects extends React.Component {
             },
               {
                   id: 4,
-                  image: '/images/bw.png',
+                  image: '/images/b.png',
                   alt: 'Home page image',
                   name: 'Beach Weather',
                   subname: 'Web Application',
