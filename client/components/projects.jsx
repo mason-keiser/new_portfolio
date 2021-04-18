@@ -25,6 +25,18 @@ export default class Projects extends React.Component {
               },
               {
                 id: 2,
+                image: '/images/uc.png',
+                alt: 'Home page image',
+                name: 'üConnect',
+                subname: 'Full-Stack Web Application',
+                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                description: 'A Full-Stack social media application made with React Hooks.',
+                github: 'https://github.com/mason-keiser/sm_app',
+                live: 'https://uc.masonkeiser.com',
+                fa: 'fa fa-globe-americas'
+            },
+              {
+                id: 3,
                 image: '/images/uts.png',
                 alt: 'Home page image',
                 name: 'Under The Sea',
@@ -36,7 +48,7 @@ export default class Projects extends React.Component {
                 fa: 'fas fa-umbrella-beach'
             },
               {
-                  id: 3,
+                  id: 4,
                   image: '/images/bw.png',
                   alt: 'Home page image',
                   name: 'Beach Weather',
@@ -48,7 +60,7 @@ export default class Projects extends React.Component {
                   fa: 'fas fa-sun'
               },
               {
-                id: 4,
+                id: 5,
                 image: '/images/nomad.png',
                 alt: 'Home page image',
                 name: 'Nomadic Living',
@@ -60,7 +72,7 @@ export default class Projects extends React.Component {
                 fa: 'fa fa-shopping-bag'
             },
               {
-                id: 5,
+                id: 6,
                 image: '/images/code-notes.png',
                 alt: 'Home page image',
                 name: 'Code Notes',
@@ -70,18 +82,6 @@ export default class Projects extends React.Component {
                 github: 'https://github.com/mason-keiser/class-notes',
                 live: 'https://code-notes.masonkeiser.com/',
                 fa: 'fa fa-address-book'
-            },
-              {
-                id: 6,
-                image: '/images/screen.png',
-                alt: 'Home page image',
-                name: 'Daily Planner',
-                subname: 'Full-Stack Web Application',
-                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
-                description: 'A full stack CRUD web application that was designed to keep track and organize daily tasks. ',
-                github: 'https://github.com/mason-keiser/task-tracker',
-                live: 'https://planner.masonkeiser.com',
-                fa: 'fa fa-book-open'
             }
           ]
         }
