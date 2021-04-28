@@ -13,10 +13,10 @@ export default class Projects extends React.Component {
             projects: [
                 {
                     id: 1,
-                    image: '/images/nmss.png',
+                    image: '/images/mss.png',
                     alt: 'Home page image',
                     name: "Mas' Surf Shop",
-                    subname: 'Full-Stack Web Application',
+                    subname: 'Full-Stack eCommerce Application',
                     technologies: 'Developed using; React.js, React Hooks, Node.js, Nodemailer, PostgreSQL, Bootstrap, HTML, and CSS.',
                     description: 'A full-stack eCommerce application aimed to simulate an online shopping experience for a surf shop. ',
                     github: 'https://github.com/mason-keiser/mss',
@@ -49,7 +49,7 @@ export default class Projects extends React.Component {
             },
               {
                 id: 4,
-                image: '/images/uts.png',
+                image: '/images/luts.png',
                 alt: 'Home page image',
                 name: 'Under The Sea',
                 subname: 'Full-Stack Web Game',
