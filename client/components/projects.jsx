@@ -12,7 +12,19 @@ export default class Projects extends React.Component {
         this.state = {
             projects: [
                 {
-                  id: 1,
+                    id: 1,
+                    image: '/images/nmss.png',
+                    alt: 'Home page image',
+                    name: "Mas' Surf Shop",
+                    subname: 'Full-Stack Web Application',
+                    technologies: 'Developed using; React.js, React Hooks, Node.js, Nodemailer, PostgreSQL, Bootstrap, HTML, and CSS.',
+                    description: 'A full-stack eCommerce application aimed to simulate an online shopping experience for a surf shop. ',
+                    github: 'https://github.com/mason-keiser/mss',
+                    live: 'https://mss.masonkeiser.com/',
+                    fa: 'fa fa-shopping-bag'
+                },
+                {
+                  id: 2,
                   image: '/images/myhea.png',
                   alt: 'Home page image',
                   name: 'My Health',
@@ -24,7 +36,7 @@ export default class Projects extends React.Component {
                   fa: 'fas fa-heart'
               },
               {
-                id: 2,
+                id: 3,
                 image: '/images/u2.png',
                 alt: 'Home page image',
                 name: 'üConnect',
@@ -36,7 +48,7 @@ export default class Projects extends React.Component {
                 fa: 'fa fa-globe-americas'
             },
               {
-                id: 3,
+                id: 4,
                 image: '/images/uts.png',
                 alt: 'Home page image',
                 name: 'Under The Sea',
@@ -48,7 +60,7 @@ export default class Projects extends React.Component {
                 fa: 'fas fa-umbrella-beach'
             },
               {
-                  id: 4,
+                  id: 5,
                   image: '/images/b.png',
                   alt: 'Home page image',
                   name: 'Beach Weather',
@@ -59,18 +71,6 @@ export default class Projects extends React.Component {
                   live: 'https://bw.masonkeiser.com/',
                   fa: 'fas fa-sun'
               },
-              {
-                id: 5,
-                image: '/images/nomad.png',
-                alt: 'Home page image',
-                name: 'Nomadic Living',
-                subname: 'Full-Stack Web Application',
-                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
-                description: 'A full-stack CRUD Application aimed to simulate an online shopping experience. ',
-                github: 'https://github.com/mason-keiser/wicked-sales-js',
-                live: 'https://wicked-sales.masonkeiser.com/',
-                fa: 'fa fa-shopping-bag'
-            },
               {
                 id: 6,
                 image: '/images/code-notes.png',
