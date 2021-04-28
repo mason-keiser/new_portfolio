@@ -935,3 +935,9 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
         padding-right: 0px;
     }
 }
+
+@media screen and (orientation: portrait) and (min-width: 410px) and (max-width: 420px) {
+    #projCard{
+        height: 64vh;
+    }
+}
