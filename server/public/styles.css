@@ -678,6 +678,16 @@ a:hover {
     background: #DCDCDC;
 }
 
+.projImg {
+    width: 40vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.recInfo {
+    width: 45vw;
+}
+
 @keyframes animated-text{ 
     from{width: 0;}
 }
@@ -890,6 +900,15 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
 
     .bo {
         height: 35vh;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .projImg {
+        width: 25vw;
+    }
+    .recInfo {
+        width: 25vw;
     }
 }
 
