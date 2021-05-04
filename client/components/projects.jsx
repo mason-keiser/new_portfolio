@@ -1,3 +1,4 @@
+import Carousel from './carousel'
 import React from 'react';
 import {
   Container,
@@ -84,7 +85,8 @@ export default class Projects extends React.Component {
                 fa: 'fa fa-address-book'
             }
           ],
-          carousel: false
+          carousel: false,
+          activeIndex: 0
         }
     }
 
@@ -129,7 +131,15 @@ export default class Projects extends React.Component {
                 </div>
                 {
                     (this.state.carousel)
-                        ? null
+                        ? (
+                            <div className="projects-section mt-4 mb-4 fade-in" id="projects">
+                                <Container>
+                                    <Row>
+                                        <Carousel projects={this.state.projects}/>
+                                    </Row>
+                                </Container>
+                            </div>
+                        )
                         : (
                             <div className="projects-section mt-4 mb-4 fade-in" id="projects">
                                 <Container>
