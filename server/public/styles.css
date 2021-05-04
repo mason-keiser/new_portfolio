@@ -658,6 +658,26 @@ a:hover {
     display: unset;
 }
 
+.toggleCont {
+    width: 60px;
+    background: #393939;
+    border-radius: 5px;
+}
+.tog{
+    width: 25px;
+    height: 85%;
+    background: white;
+    margin: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    animation: floating 3s ease-in-out infinite;
+    transition: 1.5s ease-in
+}
+
+.tog:hover{
+    background: #DCDCDC;
+}
+
 @keyframes animated-text{ 
     from{width: 0;}
 }

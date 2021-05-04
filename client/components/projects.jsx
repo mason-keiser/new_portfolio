@@ -83,8 +83,24 @@ export default class Projects extends React.Component {
                 live: 'https://code-notes.masonkeiser.com/',
                 fa: 'fa fa-address-book'
             }
-          ]
+          ],
+          carousel: false
         }
+    }
+
+    changeCarouselView(bool){
+        this.setState({
+           carousel: bool
+        })
+    }
+
+    componentDidUpdate(){
+       const tog = document.querySelector('.tog');
+       if (this.state.carousel == false) {
+           tog.style.float = 'left'
+       } if (this.state.carousel == true) {
+           tog.style.float = 'right'
+       }
     }
 
     render() {
@@ -96,15 +112,15 @@ export default class Projects extends React.Component {
                 <div className='dflex flex-row m-5'>
                     <div className='d-flex m-auto justify-content-center m-5'>
                         <div className='mr-3'>
-                            <div className="fas fa-grip-horizontal" id="grid-view" aria-label="Grid View" aria-hidden="true">
+                            <div className="fas fa-grip-horizontal" id="grid-view" onClick={() => this.changeCarouselView(false)}>
                                 <span className="tooltiptext">Grid View</span>
                             </div>
                         </div>
-                            <div>
-                                click me
+                            <div className='toggleCont'>
+                                <div className='tog' onClick={() => this.changeCarouselView(!this.state.carousel)}></div>
                             </div>
                         <div className='ml-3'>
-                            <div className="far fa-images" id="carousel-view" aria-label="Carousel View" aria-hidden="true">
+                            <div className="far fa-images" id="carousel-view" onClick={() => this.changeCarouselView(true)}>
                                 <span className="tooltiptext">Carousel View</span>
                             </div>
                         </div>
