@@ -93,6 +93,24 @@ export default class Projects extends React.Component {
                 <div className='projTitle fade-in'>
                     <h1>Projects</h1>
                 </div>
+                <div className='dflex flex-row m-5'>
+                    <div className='d-flex m-auto justify-content-center m-5'>
+                        <div className='mr-3'>
+                            <div className="fas fa-grip-horizontal" id="grid-view" aria-label="Grid View" aria-hidden="true">
+                                <span className="tooltiptext">Grid View</span>
+                            </div>
+                        </div>
+                            <div>
+                                click me
+                            </div>
+                        <div className='ml-3'>
+                            <div className="far fa-images" id="carousel-view" aria-label="Carousel View" aria-hidden="true">
+                                <span className="tooltiptext">Carousel View</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
                 <div className="projects-section mt-4 mb-4 fade-in" id="projects">
                     <Container>
                         <Row>

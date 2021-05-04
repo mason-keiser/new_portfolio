@@ -617,6 +617,47 @@ a:hover {
     font-size: 3.5rem;
 }
 
+#grid-view,
+#carousel-view {
+    position: relative;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#grid-view:hover,
+#carousel-view:hover {
+    opacity: 70%;
+}
+
+.tooltiptext {
+    background: black;
+    color: white;
+    padding: 5px;
+}
+
+#grid-view > span {
+    display: none;
+    position: absolute;
+    left: -90px;
+    border-radius: 5px;
+}
+
+#carousel-view > span {
+    display: none;
+    position: absolute;
+    width: 115px;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+
+#grid-view:hover > span{
+    display: unset;
+}
+
+#carousel-view:hover > span{
+    display: unset;
+}
+
 @keyframes animated-text{ 
     from{width: 0;}
 }
