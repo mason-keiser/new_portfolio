@@ -127,15 +127,21 @@ export default class Projects extends React.Component {
                     </div>
 
                 </div>
-                <div className="projects-section mt-4 mb-4 fade-in" id="projects">
-                    <Container>
-                        <Row>
-                            <Col xs="12">
-                                <Grid projects={this.state.projects}/>
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
+                {
+                    (this.state.carousel)
+                        ? null
+                        : (
+                            <div className="projects-section mt-4 mb-4 fade-in" id="projects">
+                                <Container>
+                                    <Row>
+                                        <Col xs="12">
+                                            <Grid projects={this.state.projects}/>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </div>
+                        )
+                }
             </div>
         )
     }

@@ -18,7 +18,7 @@ class App extends React.Component {
     componentDidMount() {
         setInterval(() => {
             this.fade()
-        },2000)
+        },1000)
         
     }
 
