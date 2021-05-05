@@ -5,7 +5,7 @@ import {
   Col
 } from 'reactstrap';
 import Grid from './project_grid'
-import { NextArrow, BackArrow, Rec } from './viewSwitchFx';
+import { Rec } from './viewSwitchFx';
 
 export default class Carousel extends React.Component {
     constructor(props) {
@@ -47,7 +47,7 @@ export default class Carousel extends React.Component {
     render() {
         return (
             <div>
-                <div className='recsRow mb-5'>
+                <div className='recsRow'>
                     <div>
                         {this.state.projs.map((proj, index) =>
                         <Rec
@@ -56,12 +56,10 @@ export default class Carousel extends React.Component {
                             index={index}
                             activeIndex={this.state.activeIndex}
                             proj={proj}
+                            goToNextProj={this.goToNextProj}
+                            goToPrevProj={this.goToPrevProj}
                         />
                         )}
-                    </div>
-                    <div className='d-flex flex-row justify-content-evenly'>
-                        <BackArrow className='col-1 ar m-4' goToPrevProj={() => this.goToPrevProj()}/>
-                        <NextArrow className='col-1 ar m-4' goToNextProj={() => this.goToNextProj()}/>
                     </div>
                 </div>
             </div>

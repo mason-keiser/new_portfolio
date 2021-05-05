@@ -237,7 +237,7 @@ export default class Header extends React.Component {
                   </Nav>
                 </Collapse>
               </Navbar>
-              <div id='btn' className='toTopBtn' onClick={() => scroll.scrollToTop()}>▲</div>
+              <div id='btn' className='toTopBtn fas fa-angle-up' onClick={() => scroll.scrollToTop()}></div>
             </Container>
         )
     }

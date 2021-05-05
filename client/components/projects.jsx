@@ -139,7 +139,7 @@ export default class Projects extends React.Component {
                     (this.state.carousel)
                         ? (
                             <div className="projects-section mt-4 mb-4 fade-in" id="projects">
-                                <Container>
+                                <Container className='cB'>
                                     <Row>
                                         <Carousel projects={this.state.projects}/>
                                     </Row>

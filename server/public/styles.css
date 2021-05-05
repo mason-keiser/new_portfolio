@@ -682,10 +682,71 @@ a:hover {
     width: 40vw;
     height: 50vh;
     object-fit: cover;
+    margin-top: 1rem;
 }
 
-.recInfo {
-    width: 45vw;
+#arrow {
+    cursor: pointer;
+    color: #5F82DB;
+    margin: 1rem 1rem 0 1rem;
+}
+
+#arrow:hover {
+    opacity: 70%;
+}
+
+#tech {
+   background: #5F82DB;
+   border-radius: 2px;
+   color: white;
+}
+
+.recs {
+    display: flex;
+}
+
+.recsRow {
+    background: white;
+    perspective: 30px;
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none!important;
+    color: #5F82DB;
+    font-size: larger;
+    transition: 2s ease-in-out;
+}
+
+.linkCont{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+    justify-content: space-around;
+}
+
+
+
+.link {
+    display: inline-block;
+    color: #5F82DB;
+    text-decoration: none;
+}
+
+.link::after {
+    content: '';
+    display: flex;
+    justify-content: center;
+    width: 0;
+    height: 2px;
+    background: #5F82DB;
+    transition: width .3s;
+}
+
+.link:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 @keyframes animated-text{ 
@@ -730,6 +791,13 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
     }
     .segweyCont {
         height: 120vh;
+    }
+}
+
+
+@media screen and (max-width: 1600px) and (min-width: 1400px) {
+    .recInfo {
+        width: 30vw;
     }
 }
   
@@ -831,6 +899,21 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
 
 
 @media screen and (max-width: 450px) {
+
+    .linkCont {
+        margin: 2rem 0 2rem 0;
+    }
+    .recs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .projImg {
+        margin-top: 1rem;
+        width: 100%;
+    }
     #project > img{
         height: 35vh;
         
