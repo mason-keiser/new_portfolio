@@ -16,6 +16,37 @@ export default class Carousel extends React.Component {
         }
         this.goToNextProj = this.goToNextProj.bind(this);
         this.goToPrevProj = this.goToPrevProj.bind(this);
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    componentDidMount() {
+        const bubbles = document.querySelectorAll('.viewBtn')
+        for (let i = 0; i < bubbles.length; i++) {
+
+            if (Number(bubbles[i].id) === this.state.activeIndex) {
+                bubbles[i].style.background = '#393939'
+            } else {
+                bubbles[i].style.background = 'white'
+            }
+        }
+    }
+
+    componentDidUpdate() {
+        const bubbles = document.querySelectorAll('.viewBtn')
+        for (let i = 0; i < bubbles.length; i++) {
+
+            if (Number(bubbles[i].id) === this.state.activeIndex) {
+                bubbles[i].style.background = '#393939'
+            } else {
+                bubbles[i].style.background = 'white'
+            }
+        }
+    }
+
+    handleClick(id) {
+        this.setState({
+            activeIndex: Number(id)
+        })
     }
 
     goToNextProj() {
@@ -58,6 +89,7 @@ export default class Carousel extends React.Component {
                             proj={proj}
                             goToNextProj={this.goToNextProj}
                             goToPrevProj={this.goToPrevProj}
+                            handleClick={this.handleClick}
                         />
                         )}
                     </div>

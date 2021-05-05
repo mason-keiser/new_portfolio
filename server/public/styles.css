@@ -753,6 +753,24 @@ a:hover {
     transition: width .3s;
 }
 
+.viewBtn {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #393939;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.viewBtn:hover {
+    opacity: 70%;    
+}
+
+#sw {
+    display: flex;
+    flex-direction: row;
+}
+
 @keyframes animated-text{ 
     from{width: 0;}
 }
@@ -830,7 +848,7 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
         justify-content: center;
         text-align: center;
     }
-    
+
     .segweyCont {
         height: 220vh;
     }
@@ -922,6 +940,10 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+
+    .recsRow {
+        padding: 0;
     }
 
     .projImg {
@@ -1066,6 +1088,23 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
 }
 
 @media screen and (max-width: 330px) {
+    #grid-view:hover > span{
+        display: none;
+    }
+    
+    #carousel-view:hover > span{
+        display: none;
+    }
+
+    .recsRow {
+        width: 90vw;
+    }
+
+    .viewBtn {
+        width: 10px;
+        height: 10px;
+    }
+
     #inner {
         padding: 0.25rem;
     }

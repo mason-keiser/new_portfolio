@@ -47,8 +47,13 @@ function Rec(props) {
                 alt={`${props.proj.name} poster`}
                 />
                 <div className='d-flex align-content-center justify-content-between'>
-                    <div className='m-4'>
-                        
+                    <div className='m-4' id='sw'>
+                        <div onClick={() => props.handleClick(0)} className='viewBtn' id='0'></div>
+                        <div onClick={() => props.handleClick(1)} className='viewBtn' id='1'></div>
+                        <div onClick={() => props.handleClick(2)} className='viewBtn' id='2'></div>
+                        <div onClick={() => props.handleClick(3)} className='viewBtn' id='3'></div>
+                        <div onClick={() => props.handleClick(4)} className='viewBtn' id='4'></div>
+                        <div onClick={() => props.handleClick(5)} className='viewBtn' id='5'></div>
                     </div>
                     <div className='d-flex flex-row justify-content-end'>
                         <BackArrow className='col-1 ar m-4' goToPrevProj={() => props.goToPrevProj()}/>
