@@ -41,7 +41,7 @@ function Rec(props) {
     key={props.index}>
         <div className='recs fade-in' key={props.proj.id}>
             <div className=' '>
-                <div style={{ overflow: 'hidden'}}>
+                <div style={{ overflow: 'hidden', marginTop: '1rem'}}>
                     <a href={props.proj.live}>
                     <img
                     className="projImg p-0"

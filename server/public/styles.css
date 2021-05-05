@@ -682,7 +682,7 @@ a:hover {
     width: 40vw;
     height: 50vh;
     object-fit: cover;
-    margin-top: 1rem;
+
 }
 
 #arrow {
@@ -780,7 +780,7 @@ a:hover {
   .projImg:hover {
     overflow: hidden;
     transform: scale(1.5);
-    
+    margin-top: 1rem;
   }
 
 @keyframes animated-text{ 
