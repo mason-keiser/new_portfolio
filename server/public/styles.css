@@ -770,6 +770,18 @@ a:hover {
     display: flex;
     flex-direction: row;
 }
+.projImg {
+    transition: transform .5s ease;
+    overflow: hidden;
+    transform: scale(1);
+    cursor: pointer;
+  }
+  
+  .projImg:hover {
+    overflow: hidden;
+    transform: scale(1.5);
+    
+  }
 
 @keyframes animated-text{ 
     from{width: 0;}

@@ -41,11 +41,15 @@ function Rec(props) {
     key={props.index}>
         <div className='recs fade-in' key={props.proj.id}>
             <div className=' '>
-                <img
-                className="projImg p-0"
-                src={props.proj.image}
-                alt={`${props.proj.name} poster`}
-                />
+                <div style={{ overflow: 'hidden'}}>
+                    <a href={props.proj.live}>
+                    <img
+                    className="projImg p-0"
+                    src={props.proj.image}
+                    alt={`${props.proj.name} poster`}
+                    />
+                    </a>
+                </div>
                 <div className='d-flex align-content-center justify-content-between'>
                     <div className='m-4' id='sw'>
                         <div onClick={() => props.handleClick(0)} className='viewBtn' id='0'></div>
