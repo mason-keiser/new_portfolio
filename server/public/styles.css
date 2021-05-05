@@ -959,7 +959,6 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
     }
 
     .projImg {
-        margin-top: 1rem;
         width: 100%;
     }
     #project > img{
