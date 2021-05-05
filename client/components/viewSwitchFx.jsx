@@ -39,7 +39,7 @@ function Rec(props) {
         : 'd-none'
     }
     key={props.index}>
-        <div className='recs' key={props.proj.id}>
+        <div className='recs fade-in' key={props.proj.id}>
             <div className=' '>
                 <img
                 className="projImg p-0"
@@ -48,7 +48,7 @@ function Rec(props) {
                 />
                 <div className='d-flex align-content-center justify-content-between'>
                     <div className='m-4'>
-                        o o o o o
+                        
                     </div>
                     <div className='d-flex flex-row justify-content-end'>
                         <BackArrow className='col-1 ar m-4' goToPrevProj={() => props.goToPrevProj()}/>
@@ -56,7 +56,7 @@ function Rec(props) {
                     </div>
                 </div>
             </div>
-            <div className='d-flex flex-column align-content-center justify-content-center m-5 recInfo'>
+            <div className='d-flex flex-column align-content-center justify-content-center recInfo'>
                 <h4 className='mt-3'>{props.proj.name}</h4>
                 <h6 className='mb-3 pr-2'>{props.proj.longDescription}</h6>
                 <h4 className='mt-3 mb-3 pr-2'>Developed Using</h4>

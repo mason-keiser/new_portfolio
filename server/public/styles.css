@@ -705,6 +705,10 @@ a:hover {
     display: flex;
 }
 
+.recInfo {
+    margin: 3rem;
+}
+
 .recsRow {
     background: white;
     perspective: 30px;
@@ -899,6 +903,9 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
 
 
 @media screen and (max-width: 450px) {
+    .recInfo{
+        margin: 0;
+    }
 
     .linkCont {
         margin: 2rem 0 2rem 0;

@@ -21,7 +21,7 @@ export default class Projects extends React.Component {
                     technologies: 'Developed using; React.js, React Hooks, Node.js, Nodemailer, PostgreSQL, Bootstrap, HTML, and CSS.',
                     techArr: ['React.js', 'React Hooks', 'Node.js', 'Nodemailer', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
                     description: 'A full-stack eCommerce application aimed to simulate an online shopping experience for a surf shop. ',
-                    longDescription: "Mas' Surf Shop is an application made to emulate an eCommerce site. Users can add items to cart as well as update quantity of cart items. Utilizes Nodemailer to send confimation emails to users who place orders. ",
+                    longDescription: "Mas' Surf Shop is a full stack application made to emulate an eCommerce site. Users can add items to cart as well as update quantity of cart items. Utilizes Nodemailer to send confimation emails to users who place orders. ",
                     github: 'https://github.com/mason-keiser/mss',
                     live: 'https://mss.masonkeiser.com/',
                     fa: 'fa fa-shopping-bag'
@@ -35,7 +35,7 @@ export default class Projects extends React.Component {
                   technologies: 'Developed using React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                   techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
                   description: 'A full stack application for medical patients to keep track of their pain, symptoms and medications on a daily basis. ',
-                  longDescription: 'My Health is a dynamic medical journal created to help people keep track of any and all medical information they might need. User features range from; being able to keep track of daily pain levels, make journal notes, keep a list of their doctor information, as well as keep a list of their medications.',
+                  longDescription: 'My Health is a dynamic medical journal created to help people keep track of any and all medical information they might need. User features range from; being able to keep track of daily pain levels, make journal notes, keep a list of their doctor information, and keep a list of their medications.',
                   github: 'https://github.com/mason-keiser/my-health',
                   live: 'https://mh.masonkeiser.com',
                   fa: 'fas fa-heart'
@@ -48,8 +48,8 @@ export default class Projects extends React.Component {
                 subname: 'Full-Stack Web Application',
                 technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                 techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
-                description: 'A Full-Stack social media application made with React Hooks.',
-                longDescription: '',
+                description: 'A full-stack social media application made with React Hooks.',
+                longDescription: 'üConnect is a full stack social media web application. Features allow user to; change their profile bio, profile image and profile header. As well as being able to post and connect with other users on the feed page.',
                 github: 'https://github.com/mason-keiser/sm_app',
                 live: 'https://uc.masonkeiser.com',
                 fa: 'fa fa-globe-americas'
@@ -63,7 +63,7 @@ export default class Projects extends React.Component {
                 technologies: 'Developed using; React.js, React Hooks, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                 techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
                 description: 'A memory match game that was designed with backend features to make a full-stack React game. ',
-                longDescription: '',
+                longDescription: 'Under The Sea is a dynamic web game that utilizes a full stack environment. Users have the ability to create an account and keep track of their total wins over time as well as update their user icon.',
                 github: 'https://github.com/mason-keiser/mem-match-react',
                 live: 'https://mm.masonkeiser.com/',
                 fa: 'fas fa-umbrella-beach'
@@ -75,9 +75,9 @@ export default class Projects extends React.Component {
                   name: 'Beach Weather',
                   subname: 'Web Application',
                   technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API.',
-                  techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS', 'GoogleMaps API', 'OpenWeatherMaps API'],
+                  techArr: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'GoogleMaps API', 'OpenWeatherMaps API'],
                   description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
-                  longDescription: '',
+                  longDescription: 'Beach Weather is a frontend web application that utilizes the power of GoogleMaps API as well as OpenWeatherMaps API to create a weather application for Southern California beaches.',
                   github: 'https://github.com/mason-keiser/beach-finder',
                   live: 'https://bw.masonkeiser.com/',
                   fa: 'fas fa-sun'
@@ -91,7 +91,7 @@ export default class Projects extends React.Component {
                 technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                 techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
                 description: 'A full stack web application for students who want to organize there Zoom recordings, class notes, and assignments in one place with their class/cohort-mate. ',
-                longDescription: '',
+                longDescription: 'Code Notes is a full stack application created on my final project team for LearningFuze. Features allow users to be able to create a note containing; links, code, tags, flashcards, and personal notes. Users are then able to review saved note information as well as test their skills by studying their flashcards.',
                 github: 'https://github.com/mason-keiser/class-notes',
                 live: 'https://code-notes.masonkeiser.com/',
                 fa: 'fa fa-address-book'
@@ -123,7 +123,7 @@ export default class Projects extends React.Component {
                 <div className='projTitle fade-in'>
                     <h1>Projects</h1>
                 </div>
-                <div className='dflex flex-row m-5'>
+                <div className='dflex flex-row mt-5'>
                     <div className='d-flex m-auto justify-content-center m-5'>
                         <div className='mr-3'>
                             <div className="fas fa-grip-horizontal" id="grid-view" onClick={() => this.changeCarouselView(false)}>
