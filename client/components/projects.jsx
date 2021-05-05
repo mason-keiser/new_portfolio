@@ -12,35 +12,35 @@ export default class Projects extends React.Component {
         super(props);
         this.state = {
             projects: [
-                {
-                    id: 1,
-                    image: '/images/mss.png',
-                    alt: 'Home page image',
-                    name: "Mas' Surf Shop",
-                    subname: 'Full-Stack eCommerce Application',
-                    technologies: 'Developed using; React.js, React Hooks, Node.js, Nodemailer, PostgreSQL, Bootstrap, HTML, and CSS.',
-                    techArr: ['React.js', 'React Hooks', 'Node.js', 'Nodemailer', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
-                    description: 'A full-stack eCommerce application aimed to simulate an online shopping experience for a surf shop. ',
-                    longDescription: "Mas' Surf Shop is a full stack application made to emulate an eCommerce site. Users can add items to cart as well as update quantity of cart items. Utilizes Nodemailer to send confimation emails to users who place orders. ",
-                    github: 'https://github.com/mason-keiser/mss',
-                    live: 'https://mss.masonkeiser.com/',
-                    fa: 'fa fa-shopping-bag'
-                },
-                {
-                  id: 2,
-                  image: '/images/myhea.png',
-                  alt: 'Home page image',
-                  name: 'My Health',
-                  subname: 'Full-Stack Web Application',
-                  technologies: 'Developed using React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
-                  techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
-                  description: 'A full stack application for medical patients to keep track of their pain, symptoms and medications on a daily basis. ',
-                  longDescription: 'My Health is a dynamic medical journal created to help people keep track of any and all medical information they might need. User features range from; being able to keep track of daily pain levels, make journal notes, keep a list of their doctor information, and keep a list of their medications.',
-                  github: 'https://github.com/mason-keiser/my-health',
-                  live: 'https://mh.masonkeiser.com',
-                  fa: 'fas fa-heart'
-              },
-              {
+            {
+                id: 1,
+                image: '/images/mss.png',
+                alt: 'Home page image',
+                name: "Mas' Surf Shop",
+                subname: 'Full-Stack eCommerce Application',
+                technologies: 'Developed using; React.js, React Hooks, Node.js, Nodemailer, PostgreSQL, Bootstrap, HTML, and CSS.',
+                techArr: ['React.js', 'React Hooks', 'Node.js', 'Nodemailer', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
+                description: 'A full-stack eCommerce application aimed to simulate an online shopping experience for a surf shop. ',
+                longDescription: "Mas' Surf Shop is a full stack application made to emulate an eCommerce site. Users can add items to cart as well as update quantity of cart items. Utilizes Nodemailer to send confimation emails to users who place orders. ",
+                github: 'https://github.com/mason-keiser/mss',
+                live: 'https://mss.masonkeiser.com/',
+                fa: 'fa fa-shopping-bag'
+            },
+            {
+                id: 2,
+                image: '/images/myhea.png',
+                alt: 'Home page image',
+                name: 'My Health',
+                subname: 'Full-Stack Web Application',
+                technologies: 'Developed using React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
+                description: 'A full stack application for medical patients to keep track of their pain, symptoms and medications on a daily basis. ',
+                longDescription: 'My Health is a dynamic medical journal created to help people keep track of any and all medical information they might need. User features range from; being able to keep track of daily pain levels, make journal notes, keep a list of their doctor information, and keep a list of their medications.',
+                github: 'https://github.com/mason-keiser/my-health',
+                live: 'https://mh.masonkeiser.com',
+                fa: 'fas fa-heart'
+            },
+            {
                 id: 3,
                 image: '/images/u2.png',
                 alt: 'Home page image',
@@ -54,7 +54,7 @@ export default class Projects extends React.Component {
                 live: 'https://uc.masonkeiser.com',
                 fa: 'fa fa-globe-americas'
             },
-              {
+            {
                 id: 4,
                 image: '/images/luts.png',
                 alt: 'Home page image',
@@ -68,21 +68,21 @@ export default class Projects extends React.Component {
                 live: 'https://mm.masonkeiser.com/',
                 fa: 'fas fa-umbrella-beach'
             },
-              {
-                  id: 5,
-                  image: '/images/b.png',
-                  alt: 'Home page image',
-                  name: 'Beach Weather',
-                  subname: 'Web Application',
-                  technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API.',
-                  techArr: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'GoogleMaps API', 'OpenWeatherMaps API'],
-                  description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
-                  longDescription: 'Beach Weather is a frontend web application that utilizes the power of GoogleMaps API as well as OpenWeatherMaps API to create a weather application for Southern California beaches.',
-                  github: 'https://github.com/mason-keiser/beach-finder',
-                  live: 'https://bw.masonkeiser.com/',
-                  fa: 'fas fa-sun'
-              },
-              {
+            {
+                id: 5,
+                image: '/images/b.png',
+                alt: 'Home page image',
+                name: 'Beach Weather',
+                subname: 'Web Application',
+                technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API.',
+                techArr: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'GoogleMaps API', 'OpenWeatherMaps API'],
+                description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
+                longDescription: 'Beach Weather is a frontend web application that utilizes the power of GoogleMaps API as well as OpenWeatherMaps API to create a weather application for Southern California beaches.',
+                github: 'https://github.com/mason-keiser/beach-finder',
+                live: 'https://bw.masonkeiser.com/',
+                fa: 'fas fa-sun'
+            },
+            {
                 id: 6,
                 image: '/images/code-notes.png',
                 alt: 'Home page image',
@@ -123,7 +123,7 @@ export default class Projects extends React.Component {
                 <div className='projTitle fade-in'>
                     <h1>Projects</h1>
                 </div>
-                <div className='dflex flex-row mt-5'>
+                <div className='dflex flex-row mt-5 mb-3'>
                     <div className='d-flex m-auto justify-content-center m-5'>
                         <div className='mr-3'>
                             <div className="fas fa-grip-horizontal" id="grid-view" onClick={() => this.changeCarouselView(false)}>

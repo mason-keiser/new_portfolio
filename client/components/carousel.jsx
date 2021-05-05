@@ -78,7 +78,7 @@ export default class Carousel extends React.Component {
     render() {
         return (
             <div>
-                <div className='recsRow fade-in'>
+                <div className='recsRow fade-in mt-4'>
                     <div>
                         {this.state.projs.map((proj, index) =>
                         <Rec
