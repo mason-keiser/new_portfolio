@@ -58,7 +58,7 @@ function Rec(props) {
             </div>
             <div className='d-flex flex-column align-content-center justify-content-center m-5 recInfo'>
                 <h4 className='mt-3'>{props.proj.name}</h4>
-                <h6 className='mb-3 pr-2'>{props.proj.description}</h6>
+                <h6 className='mb-3 pr-2'>{props.proj.longDescription}</h6>
                 <h4 className='mt-3 mb-3 pr-2'>Developed Using</h4>
                 <div className='d-flex flex-wrap'>
                     {getTechnologies(props.proj.techArr)}

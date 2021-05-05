@@ -21,6 +21,7 @@ export default class Projects extends React.Component {
                     technologies: 'Developed using; React.js, React Hooks, Node.js, Nodemailer, PostgreSQL, Bootstrap, HTML, and CSS.',
                     techArr: ['React.js', 'React Hooks', 'Node.js', 'Nodemailer', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
                     description: 'A full-stack eCommerce application aimed to simulate an online shopping experience for a surf shop. ',
+                    longDescription: "Mas' Surf Shop is an application made to emulate an eCommerce site. Users can add items to cart as well as update quantity of cart items. Utilizes Nodemailer to send confimation emails to users who place orders. ",
                     github: 'https://github.com/mason-keiser/mss',
                     live: 'https://mss.masonkeiser.com/',
                     fa: 'fa fa-shopping-bag'
@@ -34,6 +35,7 @@ export default class Projects extends React.Component {
                   technologies: 'Developed using React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                   techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
                   description: 'A full stack application for medical patients to keep track of their pain, symptoms and medications on a daily basis. ',
+                  longDescription: 'My Health is a dynamic medical journal created to help people keep track of any and all medical information they might need. User features range from; being able to keep track of daily pain levels, make journal notes, keep a list of their doctor information, as well as keep a list of their medications.',
                   github: 'https://github.com/mason-keiser/my-health',
                   live: 'https://mh.masonkeiser.com',
                   fa: 'fas fa-heart'
@@ -47,6 +49,7 @@ export default class Projects extends React.Component {
                 technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                 techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
                 description: 'A Full-Stack social media application made with React Hooks.',
+                longDescription: '',
                 github: 'https://github.com/mason-keiser/sm_app',
                 live: 'https://uc.masonkeiser.com',
                 fa: 'fa fa-globe-americas'
@@ -60,6 +63,7 @@ export default class Projects extends React.Component {
                 technologies: 'Developed using; React.js, React Hooks, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                 techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
                 description: 'A memory match game that was designed with backend features to make a full-stack React game. ',
+                longDescription: '',
                 github: 'https://github.com/mason-keiser/mem-match-react',
                 live: 'https://mm.masonkeiser.com/',
                 fa: 'fas fa-umbrella-beach'
@@ -73,6 +77,7 @@ export default class Projects extends React.Component {
                   technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API.',
                   techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS', 'GoogleMaps API', 'OpenWeatherMaps API'],
                   description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
+                  longDescription: '',
                   github: 'https://github.com/mason-keiser/beach-finder',
                   live: 'https://bw.masonkeiser.com/',
                   fa: 'fas fa-sun'
@@ -86,6 +91,7 @@ export default class Projects extends React.Component {
                 technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
                 techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
                 description: 'A full stack web application for students who want to organize there Zoom recordings, class notes, and assignments in one place with their class/cohort-mate. ',
+                longDescription: '',
                 github: 'https://github.com/mason-keiser/class-notes',
                 live: 'https://code-notes.masonkeiser.com/',
                 fa: 'fa fa-address-book'
