@@ -824,6 +824,13 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
 }
 
 @media screen and (orientation: landscape) and (max-height: 450px) {
+    .recs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
     .segweyCont {
         height: 220vh;
     }
