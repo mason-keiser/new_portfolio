@@ -12,6 +12,20 @@ export default class Projects extends React.Component {
         super(props);
         this.state = {
             projects: [
+                {
+                    id: 5,
+                    image: '/images/BWL.png',
+                    alt: 'Home page image',
+                    name: 'My SoCal Surf Buddy',
+                    subname: 'Full-Stack Web Application',
+                    technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API.',
+                    techArr: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'GoogleMaps API', 'OpenWeatherMaps API'],
+                    description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
+                    longDescription: 'MSCSB is a frontend web application that utilizes the power of GoogleMaps API as well as OpenWeatherMaps API to create a weather application for Southern California beaches.',
+                    github: 'https://github.com/mason-keiser/mscsb',
+                    live: 'https://bw.masonkeiser.com/',
+                    fa: 'fas fa-sun'
+                },
             {
                 id: 1,
                 image: '/images/mss.png',
@@ -67,20 +81,6 @@ export default class Projects extends React.Component {
                 github: 'https://github.com/mason-keiser/mem-match-react',
                 live: 'https://mm.masonkeiser.com/',
                 fa: 'fas fa-umbrella-beach'
-            },
-            {
-                id: 5,
-                image: '/images/b.png',
-                alt: 'Home page image',
-                name: 'Beach Weather',
-                subname: 'Web Application',
-                technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API.',
-                techArr: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'GoogleMaps API', 'OpenWeatherMaps API'],
-                description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
-                longDescription: 'Beach Weather is a frontend web application that utilizes the power of GoogleMaps API as well as OpenWeatherMaps API to create a weather application for Southern California beaches.',
-                github: 'https://github.com/mason-keiser/beach-finder',
-                live: 'https://bw.masonkeiser.com/',
-                fa: 'fas fa-sun'
             },
             {
                 id: 6,
