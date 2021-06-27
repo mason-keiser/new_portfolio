@@ -55,22 +55,8 @@ export default class Projects extends React.Component {
                 fa: 'fas fa-heart'
             },
             {
-                id: 3,
-                image: '/images/u2.png',
-                alt: 'Home page image',
-                name: 'üConnect',
-                subname: 'Full-Stack Web Application',
-                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
-                techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
-                description: 'A full-stack social media application made with React Hooks.',
-                longDescription: 'üConnect is a full stack social media web application. Features allow user to; change their profile bio, profile image and profile header. As well as being able to post and connect with other users on the feed page.',
-                github: 'https://github.com/mason-keiser/sm_app',
-                live: 'https://uc.masonkeiser.com',
-                fa: 'fa fa-globe-americas'
-            },
-            {
                 id: 4,
-                image: '/images/luts.png',
+                image: '/images/utn.png',
                 alt: 'Home page image',
                 name: 'Under The Sea',
                 subname: 'Full-Stack Web Game',
@@ -83,8 +69,22 @@ export default class Projects extends React.Component {
                 fa: 'fas fa-umbrella-beach'
             },
             {
+                id: 3,
+                image: '/images/uem.png',
+                alt: 'Home page image',
+                name: 'üConnect',
+                subname: 'Full-Stack Web Application',
+                technologies: 'Developed using; React.js, Node.js, PostgreSQL, Bootstrap, HTML, and CSS.',
+                techArr: ['React.js', 'React Hooks', 'Node.js', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS'],
+                description: 'A full-stack social media application made with React Hooks.',
+                longDescription: 'üConnect is a full stack social media web application. Features allow user to; change their profile bio, profile image and profile header. As well as being able to post and connect with other users on the feed page.',
+                github: 'https://github.com/mason-keiser/sm_app',
+                live: 'https://uc.masonkeiser.com',
+                fa: 'fa fa-globe-americas'
+            },
+            {
                 id: 6,
-                image: '/images/code-notes.png',
+                image: '/images/ncw.png',
                 alt: 'Home page image',
                 name: 'Code Notes',
                 subname: 'Full-Stack Desktop Web Application',
