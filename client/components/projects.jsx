@@ -70,7 +70,7 @@ export default class Projects extends React.Component {
             },
             {
                 id: 3,
-                image: '/images/uem.png',
+                image: '/images/su.png',
                 alt: 'Home page image',
                 name: 'üConnect',
                 subname: 'Full-Stack Web Application',
