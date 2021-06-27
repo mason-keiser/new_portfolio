@@ -21,9 +21,9 @@ export default class Projects extends React.Component {
                     technologies: 'Developed using; React.js, Bootstrap, HTML, CSS, GoogleMaps API, and OpenWeatherMaps API.',
                     techArr: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'GoogleMaps API', 'OpenWeatherMaps API'],
                     description: 'An application for users to find the nearest beach in SoCal and that will display the weather at the beach selected by the user. ',
-                    longDescription: 'MSCSB is a frontend web application that utilizes the power of GoogleMaps API as well as OpenWeatherMaps API to create a weather application for Southern California beaches.',
+                    longDescription: 'MSCSB is a full stack web application that utilizes the power of GoogleMaps API as well as OpenWeatherMaps API to create a weather application for Southern California beaches. Users are able to save selected beaches to their account to quickly check all their favorite beaches current weather information.',
                     github: 'https://github.com/mason-keiser/mscsb',
-                    live: 'https://bw.masonkeiser.com/',
+                    live: 'https://mscsb.masonkeiser.com/',
                     fa: 'fas fa-sun'
                 },
             {
