@@ -59,7 +59,7 @@ export default class Header extends React.Component {
         
         let navItems = document.querySelectorAll('.nav-item');
         for (let i = 0; i < navItems.length; i++) {
-          navItems[i].firstChild.style.color = '#5F82DB'
+          navItems[i].firstChild.style.color = '#24b67e'
           navItems[i].firstChild.classList.add('green')
          navItems[i].firstChild.id = ''
         }
@@ -67,7 +67,7 @@ export default class Header extends React.Component {
         let nav = document.querySelector('nav');
           nav.classList.remove('navbar-dark');
           nav.classList.add('navbar-light')
-        document.querySelector('.header-logo').style.color = '#5F82DB'
+        document.querySelector('.header-logo').style.color = '#24b67e'
         document.getElementById("btn").style.display = 'flex';
       } if (this.state.isOpen == false) {
         span[0].className ='fa fa-bars'
