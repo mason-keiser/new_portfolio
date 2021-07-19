@@ -113,7 +113,7 @@ export default class Header extends React.Component {
                
                 let navItems = document.querySelectorAll('.nav-item');
                 for (let i = 0; i < navItems.length; i++) {
-                    navItems[i].firstChild.style.color = '#5F82DB'
+                    navItems[i].firstChild.style.color = '#24b67e'
                     navItems[i].firstChild.classList.add('green')
                     navItems[i].firstChild.id = 'g'
                 }
@@ -121,7 +121,7 @@ export default class Header extends React.Component {
                 let nav = document.querySelector('nav');
                     nav.classList.remove('navbar-dark');
                     nav.classList.add('navbar-light')
-                document.querySelector('.header-logo').style.color = '#5F82DB'
+                document.querySelector('.header-logo').style.color = '#24b67e'
                 document.getElementById("btn").style.display = 'flex';
             } else if (prevScrollpos < 500 || prevScrollpos <= 0) {
                 document.getElementById("navbar").style.top = "0";
@@ -226,7 +226,7 @@ export default class Header extends React.Component {
                     <NavItem className="ml-md-5 mr-md-3">
                       <a 
                         id='item'
-                        href="/assets/MasonKeiserResume.pdf"
+                        href="/assets/MKResume.pdf"
                         offset={offset}
                         duration={1000}
                         className="pointer px-0 nav-link"
