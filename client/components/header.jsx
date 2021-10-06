@@ -226,7 +226,7 @@ export default class Header extends React.Component {
                     <NavItem className="ml-md-5 mr-md-3">
                       <a 
                         id='item'
-                        href="/assets/MKResume.pdf"
+                        href="/assets/MK_Resume.pdf"
                         offset={offset}
                         duration={1000}
                         className="pointer px-0 nav-link"
