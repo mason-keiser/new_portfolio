@@ -110,7 +110,7 @@ export default class Header extends React.Component {
             var currentScrollPos = window.pageYOffset;
             if (currentScrollPos >= 200) {
                 document.getElementById("navbar").style.background = "white";
-               
+                document.querySelector(".header-logo").style.border ='3px solid #24b67e'
                 let navItems = document.querySelectorAll('.nav-item');
                 for (let i = 0; i < navItems.length; i++) {
                     navItems[i].firstChild.style.color = '#24b67e'
@@ -125,7 +125,7 @@ export default class Header extends React.Component {
                 document.getElementById("btn").style.display = 'flex';
             } else if (prevScrollpos < 500 || prevScrollpos <= 0) {
                 document.getElementById("navbar").style.top = "0";
-                
+                document.querySelector(".header-logo").style.border ='3px solid white'
                 document.getElementById("navbar").style.backgroundColor = "transparent";
                
                 let navItems = document.querySelectorAll('.nav-item');
@@ -153,7 +153,7 @@ export default class Header extends React.Component {
                   className=" py-0 mx-auto nav navbar-dark" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
                     <NavbarBrand  onClick={() => scroll.scrollToTop()}
                     className="pointer decoration-none  justify-content-center">
-                  <h1 className='header-logo img-fluid'> Mason Keiser</h1>
+                  <h1 className='header-logo img-fluid'> &lt;Mason Keiser&#47;&gt;</h1>
                   </NavbarBrand>
                   <NavbarToggler onClick={this.handleToggle} navbar="true" className='border-0 white' id='navToggle'/>
                 <Collapse isOpen={this.state.isOpen} id='w' navbar>

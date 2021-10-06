@@ -307,6 +307,8 @@ a:hover {
 .header-logo {
     color: white;
     cursor: pointer;
+    border: 3px solid white;
+    padding: 5px 10px;
 }
 
 .navToggle > span {
@@ -830,6 +832,9 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
     .segweyCont {
         height: 120vh;
     }
+    .header-logo {
+        font-size: 1.8rem;
+    }
 }
 
 
@@ -849,11 +854,17 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
     }
 
     .header-logo{
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     .des{
         font-size: smaller;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-height: 1356px) and (min-width: 1020px) {
+    .header-logo {
+        font-size: 1.6rem;
     }
 }
 
@@ -896,7 +907,7 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
     }
 
     .header-logo {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .nav-item > a {
@@ -1015,6 +1026,12 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
     }
 }
 
+@media screen and (min-width: 374px ) and (max-width: 415px) {
+    .header-logo {
+        font-size: 1.8rem;
+    }
+}
+
 
 @media screen and (max-height: 400px) and (min-width: 800px) {
     .aboutCont {
@@ -1106,6 +1123,10 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
     #grid-view:hover > span{
         display: none;
     }
+
+    .header-logo {
+        font-size: 1.8rem;
+    }
     
     #carousel-view:hover > span{
         display: none;
@@ -1136,7 +1157,7 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
         width: 85vw;
     }
     .header-logo {
-        font-size: 25px;
+        font-size: 1rem;
     }
    .starfield2{
         height: 140vh;
