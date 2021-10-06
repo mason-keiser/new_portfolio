@@ -208,6 +208,10 @@ a:hover {
     margin: 0;
 }
 
+.toTopBtn#btn {
+    display: none;
+}
+
 .toTopBtn:hover {
     background: #24b67e;
     color: white;
