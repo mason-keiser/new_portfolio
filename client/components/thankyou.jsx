@@ -68,7 +68,7 @@ export default class ThankYou extends React.Component {
                                     <i className="far text-black fa-envelope small-font m-auto" />
                                 </div>
                             </a>
-                            <a href="/assets/MasonKeiserResume.pdf" 
+                            <a href="/assets/MK_Resume.pdf" 
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{textDecoration: 'none'}}
