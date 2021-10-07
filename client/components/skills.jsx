@@ -32,6 +32,10 @@ export default class Skills extends React.Component {
                     subname: 'Es5 & Es6'
                 },
                 {
+                    name: 'Python',
+                    className: 'devicon-python-plain',
+                },
+                {
                     name: 'PostgreSQL',
                     className: 'devicon-postgresql-plain'
                 },

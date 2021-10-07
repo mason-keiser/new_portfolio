@@ -1028,7 +1028,7 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
 
 @media screen and (min-width: 374px ) and (max-width: 415px) {
     .header-logo {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -1191,5 +1191,80 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
 @media screen and (orientation: portrait) and (min-width: 410px) and (max-width: 420px) {
     #projCard{
         height: 64vh;
+    }
+}
+
+@media screen and (min-width: 2000px) and (min-height: 1300px) {
+    .aboutImg {
+        width: 18vw;
+    }
+    .bo {
+        height: 25vh;
+    }
+    .img-holder {
+        height: 25vh;
+    }
+    #project > img {
+        height: 25vh;
+    }
+    .skillC {
+        height: 20vh;
+    }
+}
+@media screen and (min-width: 2000px) and (min-height: 1030px) {
+    .aboutImg {
+        width: 18vw;
+    }
+    .bo {
+        height: 30vh;
+    }
+    .img-holder {
+        height: 25vh;
+    }
+    #project > img {
+        height: 25vh;
+    }
+    .aboutImg {
+        width: 15vw;
+    }
+    .skillC {
+        height: 25vh;
+    }
+    .thanksCont {
+        width: 40vw;
+    }
+    .line {
+        width: 2vw;
+    }
+}
+@media screen and (min-width: 3000px) and (min-height: 1030px) {
+    .aboutImg {
+        width: 18vw;
+    }
+    .bo {
+        height: 30vh;
+    }
+    .img-holder {
+        height: 25vh;
+    }
+    #project > img {
+        height: 15vh;
+    }
+    .aboutImg {
+        width: 15vw;
+    }
+    .skillC {
+        height: 25vh;
+    }
+    .thanksCont {
+        width: 34vw;
+    }
+    .line {
+        width: 2vw;
+    }
+}
+@media screen and (min-width: 1015px) and (orientation:portrait) {
+    .skillC {
+        height: 20vh;
     }
 }

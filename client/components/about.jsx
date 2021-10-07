@@ -103,10 +103,10 @@ export default class About extends React.Component {
                     <h2 className=''>About Me</h2>
                 </div>
                  <div className="slide-in-10 pb-5 stor">
-                    <p>I&#39;m Mason Keiser, and I&#39;m a Software Developer who has a passion for technology, coding, and the ocean.</p>
+                    <p>My name is Mason Keiser, and I&#39;m a Software Developer who has a passion for technology, coding, and the ocean.</p>
                     <p>What got me interested in coding initially was the ability to create new and unique ways around everyday problems, but what keeps me going is my passion for creating efficient business solutions through code. </p>
                     <p>I have developed skills in languages such as, JavaScript (Es5 & Es6), jQuery, React.js, Node.js, Express.js, Python, HTML, Bootstrap, CSS, and PostgreSQL. The tools that I use to assist in the development process are Git/Github, Postman, npm, and Webpack. I&#39;ve also participated in team-based hackathons, as well as solo projects, to build full-stack web applications.</p>
-                    <p>I&#39;m fortunate enough to have experience working at the global company First American Title. My initial role at First American was within Compliance and Endpoint Security Operations and the Network and Cloud Security Operations. After my first Internship role ended, I transferred over to the Product Team within the Information Security sector where I worked closely with high level Python code, as well as the AWS cloud environment. </p>
+                    <p>I&#39;ve been very fortunate to have gained experience working at the global company First American Title. My initial role at First American was within Compliance and Endpoint Security Operations and the Network and Cloud Security Operations. After my first Internship role ended, I transferred over to the Product Team within the Information Security sector where I worked closely with high level Python code, as well as the AWS cloud environment. </p>
                     <p>I&#39;m an excellent communicator and team member who can thrive in any work environment. My goal is to gain experience and exposure to new and upcoming technologies to further benefit my skill set. </p>
                   </div>
                   <div className='contactButton'>
