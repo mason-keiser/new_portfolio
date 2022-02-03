@@ -57,7 +57,7 @@ export default class About extends React.Component {
                                 <i className=" decoration-none fab fa-github text-black  m-auto" />
                             </div>
                         </a>
-                    <a href="https://www.linkedin.com/in/mason-keiser-55323bb9/"
+                    <a href="https://www.linkedin.com/in/masonkeiser-li"
                         style={{textDecoration: 'none'}}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -87,7 +87,7 @@ export default class About extends React.Component {
                             <i className="decoration-none far text-black fa-envelope small-font m-auto" />
                         </div>
                     </a>
-                    <a href="/assets/MK_Resume.pdf" 
+                    <a href="/assets/masonKeiserResume.pdf" 
                         style={{textDecoration: 'none'}}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -106,8 +106,9 @@ export default class About extends React.Component {
                     <p>My name is Mason Keiser, and I&#39;m a Software Developer who has a passion for technology, coding, and the ocean.</p>
                     <p>What got me interested in coding initially was the ability to create new and unique ways around everyday problems, but what keeps me going is my passion for creating efficient business solutions through code. </p>
                     <p>I have developed skills in languages such as, JavaScript (Es5 & Es6), jQuery, React.js, Node.js, Express.js, Python, HTML, Bootstrap, CSS, and PostgreSQL. The tools that I use to assist in the development process are Git/Github, Postman, npm, and Webpack. I&#39;ve also participated in team-based hackathons, as well as solo projects, to build full-stack web applications.</p>
-                    <p>I&#39;ve been very fortunate to have gained experience working at the global company First American Title. My initial role at First American was within Compliance and Endpoint Security Operations and the Network and Cloud Security Operations. After my first Internship role ended, I transferred over to the Product Team within the Information Security sector where I worked closely with high level Python code, as well as the AWS cloud environment. </p>
-                    <p>I&#39;m an excellent communicator and team member who can thrive in any work environment. My goal is to gain experience and exposure to new and upcoming technologies to further benefit my skill set. </p>
+                    <p>I&#39;ve been very fortunate to have gained experience working at the global company First American Title. My initial role at First American was within Compliance and Endpoint Security Operations and the Network and Cloud Security Operations. After my first Internship role ended, I transferred over to the Cloud Engineering Product Team within the Information Security sector where I worked closely with high level Python code, as well as the AWS cloud environment. </p>
+                    <p>Having proven myself as a valuable asset to First American Title I was extended an offer for a full time position as an Associate Business Systems Analyst. Shortly after taking this role I have been able to drastically increase productivity and efficiency for my team's overall output.</p>
+                    <p>I&#39;m an excellent communicator and team member who can thrive in any work environment. My goal is to gain experience and exposure to new and upcoming technologies to further benefit my skill set and continuously bring new value to my team! </p>
                   </div>
                   <div className='contactButton'>
                   <Link activeClass="active"
