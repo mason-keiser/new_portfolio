@@ -398,6 +398,16 @@ a:hover {
                animated-cursor 600ms steps(29,end) infinite;
 }
 
+.animateText{
+    font-family: 'Source Code Pro', 'Ubuntu';
+    width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: solid 3px #24b67e;
+    animation: animated-text 3s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+}
+
 .animateT {
     font-family: 'Source Code Pro', 'Ubuntu';
     width: 250px;
