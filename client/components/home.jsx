@@ -20,18 +20,12 @@ export default class Home extends React.Component {
                 h4.textContent = 'Web Developer';
                 h4.classList.remove('animateText');
                 void h4.offsetWidth;
-                h4.classList.add('animateTe');
+                h4.classList.add('animateTe');            
                 setTimeout(() => {
-                    h4.textContent = 'Programmer';
+                    h4.textContent= 'Software Engineer';
                     h4.classList.remove('animateTe');
                     void h4.offsetWidth;
-                    h4.classList.add('animateTex');
-                    setTimeout(() => {
-                        h4.textContent= 'Software Engineer';
-                        h4.classList.remove('animateTex');
-                        void h4.offsetWidth;
-                        h4.classList.add('animateT')
-                    },6000)
+                    h4.classList.add('animateT')
                 },6000)
             }, 6000)
         }, 6000)
