@@ -15,7 +15,7 @@ export default class About extends React.Component {
     }
 
     componentDidMount() {
-        this.loadCalendar()
+       this.loadCalendar()
     }
 
     loadCalendar() {

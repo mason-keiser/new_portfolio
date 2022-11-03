@@ -41,7 +41,20 @@ export default class Tools extends React.Component {
                 {
                     name: 'Docker',
                     className: 'devicon-docker-plain'
-                }
+                },
+                {
+                    name: 'PuTTY',
+                    className: 'devicon-putty-plain'
+                },
+                {
+                    name: 'Windows',
+                    className: 'devicon-windows8-original',
+                    subname: "7 & 8"
+                }, 
+                {
+                    name: 'Apple',
+                    className: 'devicon-apple-original'
+                }, 
             ]
         } 
     }

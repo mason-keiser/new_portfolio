@@ -9,14 +9,7 @@ export default class ThankYou extends React.Component {
     render() {
         return (
             <div className='thankYouCont' id='thanks'>
-                 <StarfieldAnimation className='starfield'
-                style={{
-                backgroundColor: 'black',
-                position: 'absolute',
-                width: '100%',
-                height: 'inherit',
-                margin: '0'
-                }}/>
+                
                 <div className='thanksCont'>
                     <div className=' fade-in projTitle  fade-in'>
                         <h1>Thank You</h1>
@@ -81,9 +74,8 @@ export default class ThankYou extends React.Component {
                             </a>
                         </div>
                     </div>
-                    <h6 style={{textAlign: 'center'}}>Mason Keiser © 2021</h6>
+                    <h6 style={{textAlign: 'center'}}>Mason Keiser ©</h6>
                 </div>
-                <h6 style={{textAlign: 'center', fontWeight: 'bold'}}>Mason Keiser © 2021</h6>
             </div>
         )
     }

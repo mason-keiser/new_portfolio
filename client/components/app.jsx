@@ -57,7 +57,6 @@ class App extends React.Component {
             <About/>
             <Projects/>
             <Skills/>
-            <Segwey/>
             <Tools/>
             <ThankYou/>
         </div>

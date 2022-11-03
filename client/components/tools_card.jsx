@@ -15,6 +15,9 @@ export default class Tools_Card extends React.Component{
   }
 
   render() {
+    const tert = (this.props.tool.subname) ? 
+    <h5 className='m-auto'>{this.props.tool.subname}</h5> : 
+    <h5 className='m-auto line'></h5>
   return (
     <Col 
       className="mr-5 ml-5 mobile-card m-auto skillC p-0" id='skillC'>
@@ -35,8 +38,7 @@ export default class Tools_Card extends React.Component{
             <h4 className="text-center">{this.props.tool.name}</h4>
           </div>
           <div className='m-auto'>
-            <h5 className='m-auto line'></h5>
-            
+            {tert}
           </div>
         </div>
         </CardBody>

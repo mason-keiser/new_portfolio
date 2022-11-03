@@ -36,6 +36,10 @@ export default class Skills extends React.Component {
                     className: 'devicon-python-plain',
                 },
                 {
+                    name: 'C++',
+                    className: 'devicon-cplusplus-plain',
+                },
+                {
                     name: 'PostgreSQL',
                     className: 'devicon-postgresql-plain'
                 },
@@ -43,6 +47,10 @@ export default class Skills extends React.Component {
                     name: 'Bootstrap',
                     className: 'devicon-bootstrap-plain',
                     subname: '3 & 4'
+                },
+                {
+                    name: 'Git',
+                    className: 'devicon-git-plain'
                 },
                 {
                     name: 'Express',

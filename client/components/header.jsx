@@ -19,8 +19,8 @@ export default class Header extends React.Component {
         this.state = {
             isOpen: false
           };
-        this.handleToggle = this.handleToggle.bind(this)
-        this.navbarIcon = this.navbarIcon.bind(this);
+        this.handleToggle = this.handleToggle.bind(this);
+       // this.navbarIcon = this.navbarIcon.bind(this);
         this.closeExt = this.closeExt.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
     }
@@ -31,9 +31,10 @@ export default class Header extends React.Component {
         this.handleScroll()
       },2000)
     }
+
     componentDidMount() {
       this.navbarIcon()
-    }
+    } 
 
     handleScroll() {
       const navItems =document.querySelectorAll('#item');
@@ -106,18 +107,17 @@ export default class Header extends React.Component {
         }
     
         var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
+       window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
             if (currentScrollPos >= 200) {
                 document.getElementById("navbar").style.background = "white";
-                document.querySelector(".header-logo").style.border ='3px solid #24b67e'
                 let navItems = document.querySelectorAll('.nav-item');
                 for (let i = 0; i < navItems.length; i++) {
                     navItems[i].firstChild.style.color = '#24b67e'
                     navItems[i].firstChild.classList.add('green')
                     navItems[i].firstChild.id = 'g'
                 }
-                document.getElementById("navbar").style.transition = '400ms ease-in'
+
                 let nav = document.querySelector('nav');
                     nav.classList.remove('navbar-dark');
                     nav.classList.add('navbar-light')
@@ -125,7 +125,6 @@ export default class Header extends React.Component {
                 document.getElementById("btn").style.display = 'flex';
             } else if (prevScrollpos < 500 || prevScrollpos <= 0) {
                 document.getElementById("navbar").style.top = "0";
-                document.querySelector(".header-logo").style.border ='3px solid white'
                 document.getElementById("navbar").style.backgroundColor = "transparent";
                
                 let navItems = document.querySelectorAll('.nav-item');
@@ -134,8 +133,7 @@ export default class Header extends React.Component {
                     navItems[i].firstChild.classList.remove('green')
                     navItems[i].firstChild.id = 'item'
                 }
-                document.querySelector('.header-logo').style.color = 'white'
-                document.getElementById("navbar").style.transition = '400ms ease-in'
+                document.querySelector('.header-logo').style.color = 'white';
                 let nav = document.querySelector('nav');
                     nav.classList.remove('navbar-light');
                     nav.classList.add('navbar-dark')
@@ -144,17 +142,18 @@ export default class Header extends React.Component {
                 document.getElementById("btn").style.display = 'none';
             }
             prevScrollpos = currentScrollPos;
-        }  
+        }
         
             return (
                 <Container fluid={true} className="py-3 shadow-lg sticky-top" id="navbar">
                 <Navbar color="faded" light
                   expand="md"
                   className=" py-0 mx-auto nav navbar-dark" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                    <NavbarBrand  onClick={() => scroll.scrollToTop()}
-                    className="pointer decoration-none  justify-content-center">
-                  <h1 className='header-logo img-fluid'> &lt;Mason Keiser&#47;&gt;</h1>
-                  </NavbarBrand>
+                    <div  onClick={() => scroll.scrollToTop()}
+                    className="navLogo">
+                  <h5 className='headerText mb-0'>MK</h5>
+                  <h2 className="header-logo">Mason Keiser</h2>
+                  </div>
                   <NavbarToggler onClick={this.handleToggle} navbar="true" className='border-0 white' id='navToggle'/>
                 <Collapse isOpen={this.state.isOpen} id='w' navbar>
                   <Nav className="mx-auto justify-content-center " navbar>

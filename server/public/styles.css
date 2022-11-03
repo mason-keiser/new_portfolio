@@ -137,6 +137,13 @@ a:hover {
     text-decoration: none;
 }
 
+#icon4 {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+
 .aboutImg {
     border: 2px solid white;
     border-radius: 5px;
@@ -178,12 +185,15 @@ a:hover {
     font-size: 25px;
     color: white;
     border-bottom: 2px solid transparent; /* <- here */
-    transition: border-bottom 1s;
     text-decoration: none;
     cursor: pointer;
 }
 
 #item:hover {
+    border-bottom: 2px solid white;
+}
+
+#icon4:hover {
     border-bottom: 2px solid white;
 }
 
@@ -307,8 +317,24 @@ a:hover {
 .header-logo {
     color: white;
     cursor: pointer;
-    border: 3px solid white;
-    padding: 5px 10px;
+    padding: 10px 10px;
+}
+
+.navLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerText {
+    border-radius: 50%;
+    background: #24b67e;
+    padding: 15px 15px;
+    height: fit-content;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 1rem;
 }
 
 .navToggle > span {
@@ -370,6 +396,14 @@ a:hover {
     position: absolute;
     width: 100%;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeIconContainer {
+    position: absolute;
+    width: 100%;
+    top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
