@@ -101,7 +101,7 @@ export default class Home extends React.Component {
                             <i className="decoration-none far text-white fa-envelope small-font m-auto" />
                         </div>
                     </a>
-                    <a href="/assets/MasonKeiserResume.pdf" 
+                    <a href="/assets/Mason Keiser Resume.pdf" 
                         style={{textDecoration: 'none'}}
                         target="_blank"
                         rel="noopener noreferrer"
