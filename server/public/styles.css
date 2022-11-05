@@ -304,7 +304,8 @@ a:hover {
 .green{
     font-size: 25px;
     border-bottom: 2px solid transparent; /* <- here */
-    transition: border-bottom 1s;
+    
+    
     text-decoration: none;
     color: #24b67e;
     cursor: pointer;
@@ -318,6 +319,7 @@ a:hover {
     color: white;
     cursor: pointer;
     padding: 10px 10px;
+    font-weight: bold;
 }
 
 .navLogo {
@@ -1312,3 +1314,4 @@ rect.day[fill="var(--color-calendar-graph-day-L4-bg)"] {
         height: 20vh;
     }
 }
+

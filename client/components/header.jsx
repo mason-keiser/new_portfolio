@@ -19,28 +19,18 @@ export default class Header extends React.Component {
         this.state = {
             isOpen: false
           };
-        this.handleToggle = this.handleToggle.bind(this);
-       // this.navbarIcon = this.navbarIcon.bind(this);
+        this.navbarIcon = this.navbarIcon.bind(this);
         this.closeExt = this.closeExt.bind(this);
-        this.handleScroll = this.handleScroll.bind(this);
+        this.handleToggle = this.handleToggle.bind(this);
     }
 
     componentDidUpdate() {
       this.navbarIcon()
-      setTimeout(() => {
-        this.handleScroll()
-      },2000)
     }
 
     componentDidMount() {
       this.navbarIcon()
     } 
-
-    handleScroll() {
-      const navItems =document.querySelectorAll('#item');
-      console.log(navItems)
-      console.log('helllo')
-    }
 
     handleToggle() {
         if (window.innerWidth < 768) {
@@ -95,8 +85,6 @@ export default class Header extends React.Component {
     closeExt() {
       if (window.innerWidth < 768) {
         this.handleToggle()
-      } else {
-        null
       }
     }
 
@@ -105,51 +93,50 @@ export default class Header extends React.Component {
         if (window.innerWidth < 768) {
             offset = -286;
         }
-    
-        var prevScrollpos = window.pageYOffset;
-       window.onscroll = function() {
-            var currentScrollPos = window.pageYOffset;
-            if (currentScrollPos >= 200) {
-                document.getElementById("navbar").style.background = "white";
-                let navItems = document.querySelectorAll('.nav-item');
-                for (let i = 0; i < navItems.length; i++) {
-                    navItems[i].firstChild.style.color = '#24b67e'
-                    navItems[i].firstChild.classList.add('green')
-                    navItems[i].firstChild.id = 'g'
+  
+        window.onscroll = function() {
+            if (document.getElementById("navbar")) {
+              let navItems = document.querySelectorAll('.nav-item')
+              if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
+                document.getElementById("navbar").style.backgroundColor = "white"
+                document.getElementById("navbar").classList.add('navbar-light')
+                document.getElementById("navbar").classList.remove('navbar-dark')
+                document.querySelector('.header-logo').style.color = "#24b67e"
+                document.getElementById("btn").style.display = 'flex'
+                if (window.innerWidth < 768) {
+                  document.getElementById("navToggle").firstChild.style.color = "#24b67e"
                 }
-
-                let nav = document.querySelector('nav');
-                    nav.classList.remove('navbar-dark');
-                    nav.classList.add('navbar-light')
-                document.querySelector('.header-logo').style.color = '#24b67e'
-                document.getElementById("btn").style.display = 'flex';
-            } else if (prevScrollpos < 500 || prevScrollpos <= 0) {
-                document.getElementById("navbar").style.top = "0";
-                document.getElementById("navbar").style.backgroundColor = "transparent";
-               
-                let navItems = document.querySelectorAll('.nav-item');
                 for (let i = 0; i < navItems.length; i++) {
-                    navItems[i].firstChild.style.color = 'white'
-                    navItems[i].firstChild.classList.remove('green')
-                    navItems[i].firstChild.id = 'item'
+                  navItems[i].classList.add('green');
+                  navItems[i].firstChild.classList.add('green')
+                  navItems[i].firstChild.id = "g"
+                  navItems[i].firstChild.style.color = "#24b67e"
                 }
-                document.querySelector('.header-logo').style.color = 'white';
-                let nav = document.querySelector('nav');
-                    nav.classList.remove('navbar-light');
-                    nav.classList.add('navbar-dark')
-                
-            } if (prevScrollpos < 200) {
-                document.getElementById("btn").style.display = 'none';
+              } else {
+                document.getElementById("navbar").style.backgroundColor = "transparent"
+                document.getElementById("navbar").classList.remove('navbar-light')
+                document.getElementById("navbar").classList.add('navbar-dark')
+                document.querySelector('.header-logo').style.color = "white"
+                document.getElementById("btn").style.display = 'none'
+                if (window.innerWidth < 768) {
+                  document.getElementById("navToggle").firstChild.style.color = "white"
+                }
+                for (let i = 0; i < navItems.length; i++) {
+                  navItems[i].classList.remove('green');
+                  navItems[i].firstChild.classList.remove('green')
+                  navItems[i].firstChild.id = "item"
+                  navItems[i].firstChild.style.color = "white"
+                }
+              }
             }
-            prevScrollpos = currentScrollPos;
         }
-        
+    
             return (
                 <Container fluid={true} className="py-3 shadow-lg sticky-top" id="navbar">
                 <Navbar color="faded" light
                   expand="md"
                   className=" py-0 mx-auto nav navbar-dark" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                    <div  onClick={() => scroll.scrollToTop()}
+                    <div onClick={() => scroll.scrollToTop()}
                     className="navLogo">
                   <h5 className='headerText mb-0'>MK</h5>
                   <h2 className="header-logo">Mason Keiser</h2>
@@ -225,7 +212,7 @@ export default class Header extends React.Component {
                     <NavItem className="ml-md-5 mr-md-3">
                       <a 
                         id='item'
-                        href="/assets/MasonKeiserResume.pdf"
+                        href="/assets/Mason Keiser Resume.pdf"
                         offset={offset}
                         duration={1000}
                         className="pointer px-0 nav-link"
